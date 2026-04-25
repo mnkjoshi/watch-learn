@@ -53,7 +53,8 @@ export default function Home() {
           title="Dispute De-escalation"
           subtitle="Two AI avatars argue — you step in as security. Live evaluation grades your calm, impartiality, and ABST technique."
           href="/dispute"
-          cta="Start a dispute →"
+          cta="Coming soon"
+          disabled
         />
         <PillarCard
           delay="rise-4"
@@ -129,6 +130,7 @@ function PillarCard({
   cta,
   delay,
   big = false,
+  disabled = false,
 }: {
   eyebrow: string;
   title: string;
@@ -137,14 +139,10 @@ function PillarCard({
   cta: string;
   delay: string;
   big?: boolean;
+  disabled?: boolean;
 }) {
-  return (
-    <Link
-      href={href}
-      className={`rise ${delay} group block bg-paper p-8 md:p-10 hover:bg-ink hover:text-paper transition-colors duration-300 ${
-        big ? "md:row-span-1" : ""
-      }`}
-    >
+  const inner = (
+    <>
       <div className="flex items-start justify-between mb-6">
         <div className="eyebrow group-hover:text-gold">{eyebrow}</div>
         {big && (
@@ -166,6 +164,29 @@ function PillarCard({
       <div className="text-sm font-medium underline-offset-4 group-hover:underline">
         {cta}
       </div>
+    </>
+  );
+
+  if (disabled) {
+    return (
+      <div
+        className={`rise ${delay} block bg-paper p-8 md:p-10 opacity-50 cursor-not-allowed ${
+          big ? "md:row-span-1" : ""
+        }`}
+      >
+        {inner}
+      </div>
+    );
+  }
+
+  return (
+    <Link
+      href={href}
+      className={`rise ${delay} group block bg-paper p-8 md:p-10 hover:bg-ink hover:text-paper transition-colors duration-300 ${
+        big ? "md:row-span-1" : ""
+      }`}
+    >
+      {inner}
     </Link>
   );
 }
