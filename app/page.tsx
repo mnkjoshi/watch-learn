@@ -72,6 +72,14 @@ export default function Home() {
           href="/progress"
           cta="View progress →"
         />
+        <PillarCard
+          delay="rise-5"
+          eyebrow="Pillar V"
+          title="Full Practice Exam"
+          subtitle="Test your readiness with a randomized 50-question practice test. See your score and review explanations."
+          href="/practice-test"
+          cta="Start full exam →"
+        />
       </section>
 
       {/* Why it matters ------------------------------------------------- */}
