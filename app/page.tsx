@@ -47,16 +47,7 @@ export default function Home() {
           href="/quiz"
           cta="Start the quiz →"
         />
-        <PillarCard
-          delay="rise-3"
-          eyebrow="Pillar III"
-          title="Dispute De-escalation"
-          subtitle="Two AI avatars argue — you step in as security. Live evaluation grades your calm, impartiality, and ABST technique."
-          href="/dispute"
-          cta="Coming soon"
-          disabled
-        />
-        <PillarCard
+<PillarCard
           delay="rise-4"
           eyebrow="Pillar IV"
           title="Manual at Your Level"
