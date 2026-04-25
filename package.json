@@ -1,0 +1,32 @@
+{
+  "name": "abst-coach",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "prepare-abst": "node scripts/prepare_abst.mjs"
+  },
+  "dependencies": {
+    "@aws-sdk/client-bedrock-runtime": "^3.658.0",
+    "@aws-sdk/client-polly": "^3.658.0",
+    "@aws-sdk/client-transcribe": "^3.658.0",
+    "@aws-sdk/client-translate": "^3.658.0",
+    "dotenv": "^16.4.5",
+    "next": "14.2.13",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.16.5",
+    "@types/react": "^18.3.5",
+    "@types/react-dom": "^18.3.0",
+    "autoprefixer": "^10.4.20",
+    "pdf-parse": "^1.1.1",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.12",
+    "typescript": "^5.6.2"
+  }
+}

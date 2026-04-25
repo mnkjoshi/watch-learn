@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ----------------------------------------------------------------
+   Typography — Fraunces (display) + Inter Tight (body) + JetBrains Mono.
+   The display font sets the editorial, "examiner's notebook" tone the pitch
+   leans into. The body is a tight humanist sans for dense reading.
+   ---------------------------------------------------------------- */
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,600;9..144,800&family=Inter+Tight:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap");
+
+:root {
+  --font-display: "Fraunces", ui-serif, Georgia, serif;
+  --font-sans: "Inter Tight", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+
+  --color-ink: #0E1116;
+  --color-paper: #F4EFE6;
+  --color-accent: #D64545;
+  --color-gold: #C9A14A;
+  --color-slate: #5A6473;
+}
+
+html, body {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  font-feature-settings: "ss01", "ss02", "cv11";
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Subtle paper grain via two layered gradients — keeps the warm tone but
+   adds the texture editorial designs need. */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.4;
+  z-index: 0;
+  background-image:
+    radial-gradient(circle at 20% 10%, rgba(201, 161, 74, 0.08) 0, transparent 40%),
+    radial-gradient(circle at 80% 90%, rgba(214, 69, 69, 0.05) 0, transparent 40%);
+}
+
+.font-display { font-family: var(--font-display); }
+.font-mono    { font-family: var(--font-mono); }
+
+/* Hairline border used throughout — stronger than Tailwind's gray-200 on
+   warm paper, weaker than full ink. */
+.border-hair { border-color: rgba(14, 17, 22, 0.14); }
+
+/* Editorial label — small caps, tracked, used for section eyebrows. */
+.eyebrow {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--color-slate);
+}
+
+/* Read-aloud sentence highlight (used by Reader). */
+.tts-active {
+  background: rgba(201, 161, 74, 0.28);
+  border-radius: 2px;
+  transition: background 200ms ease;
+}
+
+/* Scenario "patron speaking" pulse. */
+@keyframes patron-pulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(214, 69, 69, 0.4); }
+  50%      { box-shadow: 0 0 0 14px rgba(214, 69, 69, 0); }
+}
+.patron-pulse { animation: patron-pulse 1.4s ease-in-out infinite; }
+
+/* Mic recording animation. */
+@keyframes mic-rec {
+  0%, 100% { transform: scale(1); }
+  50%      { transform: scale(1.06); }
+}
+.mic-rec { animation: mic-rec 1.1s ease-in-out infinite; }
+
+/* Stagger reveal used on home page. */
+@keyframes rise {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.rise   { animation: rise 600ms cubic-bezier(0.2, 0.7, 0.2, 1) both; }
+.rise-1 { animation-delay: 60ms; }
+.rise-2 { animation-delay: 140ms; }
+.rise-3 { animation-delay: 220ms; }
+.rise-4 { animation-delay: 300ms; }
+.rise-5 { animation-delay: 380ms; }
+
+/* Diagonal accent rule used as section divider. */
+.rule-diag {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(14, 17, 22, 0.3), transparent);
+}
