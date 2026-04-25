@@ -2,7 +2,10 @@
   "permissions": {
     "allow": [
       "Bash(xargs grep *)",
-      "Bash(python3 *)"
+      "Bash(python3 *)",
+      "WebFetch(domain:www.npmjs.com)",
+      "Bash(npm view *)",
+      "Bash(node -e \"const v=require\\('fs'\\).readFileSync\\('/dev/stdin','utf8'\\); const arr=JSON.parse\\(v\\); const stable=arr.filter\\(x=>!x.includes\\('-'\\)\\); console.log\\(stable.slice\\(-10\\).join\\('\\\\n'\\)\\);\")"
     ]
   }
 }
