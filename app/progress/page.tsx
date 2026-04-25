@@ -30,6 +30,7 @@ export default function ProgressPage() {
   const avgScenario = totalScenarios > 0
     ? Math.round(session.scenarioRuns.reduce((s, r) => s + r.score, 0) / totalScenarios)
     : 0;
+  const passingScenarios = session.scenarioRuns.filter((r) => r.score >= 80).length;
 
   return (
     <div className="max-w-5xl mx-auto px-6 pt-10 pb-20">
@@ -77,9 +78,9 @@ export default function ProgressPage() {
           sub={totalScenarios > 0 ? `Across ${totalScenarios} scenario${totalScenarios === 1 ? "" : "s"}` : "No runs yet"}
         />
         <Stat
-          label="Reading language"
-          value={session.language.toUpperCase()}
-          sub="Set in the bilingual reader"
+          label="Scenarios passed"
+          value={totalScenarios > 0 ? `${passingScenarios}/${totalScenarios}` : "—"}
+          sub={totalScenarios > 0 ? "At or above the 80% bar" : "No runs yet"}
         />
       </section>
 

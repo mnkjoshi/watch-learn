@@ -51,7 +51,7 @@ function Footer() {
     <footer className="relative z-10 border-t border-hair mt-24">
       <div className="max-w-6xl mx-auto px-6 py-6 flex flex-col md:flex-row items-start md:items-center justify-between gap-3 text-xs text-slate">
         <div>
-          Built on AWS Bedrock · Polly · Transcribe · Translate ·{" "}
+          Built on AWS Bedrock · Polly · Transcribe ·{" "}
           <span className="font-mono">v0.1 hackathon-mvp</span>
         </div>
         <div>Manual source: open.alberta.ca · ABST Participant Manual, Oct 2014</div>

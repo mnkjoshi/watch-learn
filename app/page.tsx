@@ -9,9 +9,9 @@ export default function Home() {
           <div className="eyebrow mb-4">The exam is not a vocabulary test.</div>
           <h1 className="font-display text-5xl md:text-7xl leading-[0.95] tracking-tight">
             Pass the <span className="italic text-accent">Alberta Basic Security</span> exam —
-            in the language you think in,
+            in the language you'll be tested in,
             <br />
-            <span className="text-slate">and the one you'll be tested in.</span>
+            <span className="text-slate">at a level you can actually learn from.</span>
           </h1>
         </div>
         <div className="md:col-span-4 rise rise-2 border-l border-hair pl-6">
@@ -51,8 +51,8 @@ export default function Home() {
         <PillarCard
           delay="rise-3"
           eyebrow="Pillar III"
-          title="Bilingual Manual"
-          subtitle="Side-by-side English and your language. Click any term for plain-English + native definitions and pronunciation."
+          title="Manual at Your Level"
+          subtitle="The same provincial content rewritten at three reading levels, with sentence-level read-aloud. The exam is in English — practice in English."
           href="/reader"
           cta="Open the manual →"
         />

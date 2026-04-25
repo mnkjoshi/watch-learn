@@ -29,8 +29,10 @@ Open http://localhost:3000 — all four pillars are navigable from the home page
 | --- | --- | --- | --- |
 | Scenario Simulator (hero) | A | `/scenario` | `/api/scenario/*` |
 | Adaptive Quiz | B | `/quiz` | `/api/quiz/*` |
-| Bilingual Reader | C | `/reader` | `/api/translate`, `/api/tts`, `/api/chat` |
+| Manual at Your Level | C | `/reader` | `/api/manual`, `/api/density`, `/api/tts` |
 | Polish + Progress + Demo | D | `/`, `/progress` | — |
+
+> **Note on translation:** Alberta requires that ABST training materials be delivered in English. ABST Coach therefore presents the manual exclusively in English, but offers reading-level adaptation (original / simple B1 English / "explain like I'm 12") and sentence-level read-aloud to support comprehension without translating away the legal terminology students will be tested on.
 
 ## DEMO_MODE
 
@@ -46,7 +48,3 @@ Everything works end-to-end with placeholder content. The real work is replacing
 - `app/api/scenario/turn/route.ts` — orchestrates Transcribe → Bedrock → Polly; stubbed today
 
 See each file's header comment for a TODO list.
-
-## Scope discipline
-
-The plan's "explicitly NOT building" list is law. If you find yourself adding user auth, a generic upload pipeline, video generation, or a colorblind toggle — stop. Re-read Section 2 of the plan.

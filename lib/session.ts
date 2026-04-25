@@ -1,6 +1,6 @@
 // lib/session.ts
 //
-// Lightweight session state — tracks quiz performance and weak areas.
+// Lightweight session state — tracks quiz performance and scenario history.
 // Persisted to localStorage on the client (no backend DB).
 // Server routes don't read this; the client passes the relevant slice up.
 
@@ -27,13 +27,11 @@ export type ScenarioRun = {
 export type SessionState = {
   quizAttempts: QuizAttempt[];
   scenarioRuns: ScenarioRun[];
-  language: string; // LanguageCode
 };
 
 export const EMPTY_SESSION: SessionState = {
   quizAttempts: [],
   scenarioRuns: [],
-  language: "en",
 };
 
 const KEY = "abst-coach-session-v1";
