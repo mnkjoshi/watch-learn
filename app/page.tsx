@@ -8,8 +8,7 @@ export default function Home() {
         <div className="md:col-span-8 rise rise-1">
           <div className="eyebrow mb-4">The exam is not a vocabulary test.</div>
           <h1 className="font-display text-5xl md:text-7xl leading-[0.95] tracking-tight">
-            Pass the <span className="italic text-accent">Alberta Basic Security</span> exam —
-            in the language you'll be tested in,
+            Pass the <span className="italic text-accent">Alberta Basic Security Training</span>
             <br />
             <span className="text-slate">at a level you can actually learn from.</span>
           </h1>
@@ -33,7 +32,7 @@ export default function Home() {
       <section className="grid md:grid-cols-2 gap-px bg-ink/10 border border-hair">
         <PillarCard
           delay="rise-1"
-          eyebrow="Pillar I — Hero"
+          eyebrow="Pillar I"
           title="Scenario Simulator"
           subtitle="Voice-driven roleplay. The exam tests judgment under pressure — practice that, not flashcards."
           href="/scenario"
@@ -65,12 +64,30 @@ export default function Home() {
           cta="Open the manual →"
         />
         <PillarCard
+          delay="rise-4"
+          eyebrow="Pillar IV"
+          title="Incident Reports"
+          subtitle="Watch a video once, then write an incident report from memory. Graded on grammar, detail accuracy, and professional language."
+          href="/report"
+          cta="Watch & report →"
+        />
+        <PillarCard
+          delay="rise-5"
+          eyebrow="Pillar V"
           delay="rise-5"
           eyebrow="Pillar V"
           title="Progress & Confidence"
           subtitle="Tracks your accuracy across modules and tells you when you're ready to take the real exam."
           href="/progress"
           cta="View progress →"
+        />
+        <PillarCard
+          delay="rise-5"
+          eyebrow="Pillar VI"
+          title="Full Practice Exam"
+          subtitle="Test your readiness with a randomized 50-question practice test. See your score and review explanations at the end."
+          href="/practice-test"
+          cta="Start full exam →"
         />
       </section>
 

@@ -16,7 +16,7 @@ export async function POST(req: NextRequest) {
   // If we have weak areas, retrieve from those. Otherwise, pick random chunks.
   let chunks;
   if (weakAreas && weakAreas.length > 0) {
-    chunks = await retrieve(weakAreas.join(" "), 4);
+    chunks = await retrieve(weakAreas.join(" "));
   } else {
     const all = loadChunks();
     chunks = pickRandom(all, 4);

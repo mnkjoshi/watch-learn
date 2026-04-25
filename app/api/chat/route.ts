@@ -16,7 +16,7 @@ export async function POST(req: NextRequest) {
 
   // Retrieve manual context based on the latest user message.
   const last = messages[messages.length - 1]?.content ?? "";
-  const chunks = await retrieve(last, 4);
+  const chunks = await retrieve(last);
 
   // Inject context as a system-augmenting preface to the latest user message.
   const augmented: ChatMessage[] = [

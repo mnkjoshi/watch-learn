@@ -48,7 +48,7 @@ export async function POST(req: NextRequest) {
     .map((t) => t.text)
     .join(" ");
   const retrievalQuery = `de-escalation communication conflict resolution ${scenario.manualSection} ${guardLines}`.slice(0, 500);
-  const chunks = await retrieve(retrievalQuery, 5);
+  const chunks = await retrieve(retrievalQuery);
 
   const transcriptText = transcript
     .map((t) => {

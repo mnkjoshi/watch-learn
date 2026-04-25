@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Link from "next/link";
+import ChatWidget from "@/components/ChatWidget";
 
 export const metadata: Metadata = {
   title: "ABST Coach — Pass the Alberta Security exam",
@@ -19,6 +20,7 @@ export default function RootLayout({
         <Header />
         <main className="relative z-10">{children}</main>
         <Footer />
+        <ChatWidget />
       </body>
     </html>
   );
@@ -39,6 +41,7 @@ function Header() {
           <Link href="/reader" className="hover:text-accent transition">Manual</Link>
           <Link href="/quiz" className="hover:text-accent transition">Quiz</Link>
           <Link href="/scenario" className="hover:text-accent transition">Scenarios</Link>
+          <Link href="/report" className="hover:text-accent transition">Reports</Link>
           <Link href="/dispute" className="hover:text-accent transition">Disputes</Link>
           <Link href="/progress" className="hover:text-accent transition">Progress</Link>
         </nav>

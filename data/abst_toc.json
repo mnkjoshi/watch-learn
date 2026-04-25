@@ -1,0 +1,110 @@
+[
+  {
+    "module": null,
+    "title": "Introduction",
+    "page": 5,
+    "children": [
+      { "title": "Learning Outcomes", "page": 5 },
+      { "title": "Icons in This Manual", "page": 7 }
+    ]
+  },
+  {
+    "module": 1,
+    "title": "Module One: Introduction to the Security Industry",
+    "page": 9,
+    "children": [
+      { "title": "Roles and Responsibilities of Security Professionals", "page": 11 },
+      { "title": "Legislation and the Licensing of Security Professionals in Alberta", "page": 13 },
+      { "title": "Appearance and Conduct for Security Professionals", "page": 20 }
+    ]
+  },
+  {
+    "module": 2,
+    "title": "Module Two: The Canadian Legal System and Security Professionals",
+    "page": 26,
+    "children": [
+      { "title": "Charter of Rights and the Criminal Code of Canada", "page": 28 },
+      { "title": "Use of Force", "page": 42 },
+      { "title": "Additional Legislation", "page": 45 }
+    ]
+  },
+  {
+    "module": 3,
+    "title": "Module Three: Basic Security Procedures",
+    "page": 51,
+    "children": [
+      { "title": "Observation", "page": 53 },
+      { "title": "Patrol Skills", "page": 61 },
+      { "title": "Dealing with Substance Abusers", "page": 74 },
+      { "title": "Interacting with the Media", "page": 76 },
+      { "title": "Traffic Control", "page": 76 },
+      { "title": "Traffic Collision Reports", "page": 78 },
+      { "title": "Post Orders", "page": 79 },
+      { "title": "Starting a Shift", "page": 79 },
+      { "title": "Ending a Shift", "page": 80 },
+      { "title": "Working with a Partner", "page": 81 },
+      { "title": "Use of Force Response", "page": 81 }
+    ]
+  },
+  {
+    "module": 4,
+    "title": "Module Four: Communication for Security Professionals",
+    "page": 88,
+    "children": [
+      { "title": "Verbal and Non-Verbal Communication", "page": 90 },
+      { "title": "Challenges to Communication", "page": 97 },
+      { "title": "Communicating with Uncooperative Persons", "page": 100 },
+      { "title": "Conducting an Interview", "page": 102 }
+    ]
+  },
+  {
+    "module": 5,
+    "title": "Module Five: Documentation and Evidence",
+    "page": 107,
+    "children": [
+      { "title": "Notebooks", "page": 109 },
+      { "title": "Statements", "page": 118 },
+      { "title": "Reports", "page": 118 },
+      { "title": "Evidence", "page": 125 },
+      { "title": "Preparing for Court", "page": 126 }
+    ]
+  },
+  {
+    "module": 6,
+    "title": "Module Six: Emergency Response Procedures for Security Professionals",
+    "page": 130,
+    "children": [
+      { "title": "Alarm Systems", "page": 132 },
+      { "title": "Responding to Alarms", "page": 135 },
+      { "title": "Emergency Scene Management", "page": 137 }
+    ]
+  },
+  {
+    "module": 7,
+    "title": "Module Seven: Health and Safety for Security Professionals",
+    "page": 148,
+    "children": [
+      { "title": "Personal Safety", "page": 150 },
+      { "title": "Identifying Hazards", "page": 152 },
+      { "title": "Shift Work", "page": 154 }
+    ]
+  },
+  {
+    "module": null,
+    "title": "Appendix A: Employment Standards Code",
+    "page": 159,
+    "children": []
+  },
+  {
+    "module": null,
+    "title": "Appendix B: Criminal Code",
+    "page": 175,
+    "children": []
+  },
+  {
+    "module": null,
+    "title": "Appendix C: Forms",
+    "page": 185,
+    "children": []
+  }
+]

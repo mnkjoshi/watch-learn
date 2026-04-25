@@ -56,7 +56,7 @@ function cosine(a: number[], b: number[]): number {
  * Retrieve the top-k chunks most similar to the query.
  * Caller must have already embedded the query via `embed()`.
  */
-export function retrieveByEmbedding(queryEmbedding: number[], k = 5): AbstChunk[] {
+export function retrieveByEmbedding(queryEmbedding: number[], k = 15): AbstChunk[] {
   const chunks = loadChunks();
   return chunks
     .map((c) => ({ chunk: c, score: cosine(queryEmbedding, c.embedding) }))
@@ -68,7 +68,7 @@ export function retrieveByEmbedding(queryEmbedding: number[], k = 5): AbstChunk[
 /**
  * Convenience: embed the query and retrieve in one call.
  */
-export async function retrieve(query: string, k = 5): Promise<AbstChunk[]> {
+export async function retrieve(query: string, k = 15): Promise<AbstChunk[]> {
   const e = await embed(query);
   return retrieveByEmbedding(e, k);
 }

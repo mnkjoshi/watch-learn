@@ -1,0 +1,1489 @@
+{
+  "title": "ABST - Alberta Basic Security Training Practice Questions",
+  "source": "https://practicetestgeeks.com/abst-test/",
+  "scrapedDate": "2026-04-25",
+  "totalQuestions": 116,
+  "totalModules": 18,
+  "modules": [
+    {
+      "name": "ABST - Alberta Basic Security Training Basic Security Procedures Questions and Answers",
+      "sourceUrl": "https://practicetestgeeks.com/abst-alberta-basic-security-training-basic-security-procedures-questions-and-answers",
+      "questions": [
+        {
+          "id": 1,
+          "question": "While conducting a foot patrol at a shopping mall, a security professional notices an individual trying the handles of several parked cars in the parking lot. According to the principle of 'finds committing', what is the security professional's authority in this situation?",
+          "options": [
+            "To immediately arrest the individual for attempted theft.",
+            "To use any force necessary to stop the individual.",
+            "To only observe and report the activity to the police.",
+            "To ask the individual for their identification and search their bag."
+          ],
+          "correctAnswer": "To immediately arrest the individual for attempted theft.",
+          "explanation": "Under Section 494 of the Criminal Code, a property owner or their authorized agent (like a security guard) can arrest without a warrant a person whom they find committing a criminal offence on or in relation to that property. Trying car door handles is a clear attempt at theft, which is a criminal offense the guard is witnessing firsthand."
+        },
+        {
+          "id": 2,
+          "question": "Which of the following is the PRIMARY purpose of conducting regular security patrols?",
+          "options": [
+            "To deter, detect, and respond to potential security incidents.",
+            "To project an image of authority to the public.",
+            "To provide customer service and directions to visitors.",
+            "To ensure employees are following company policies."
+          ],
+          "correctAnswer": "To deter, detect, and respond to potential security incidents.",
+          "explanation": "The core function of security patrols is to prevent incidents from happening (deter), identify any unusual or unauthorized activity (detect), and take appropriate action when an incident occurs (respond). While other options can be secondary duties, the primary goal is always focused on security and safety."
+        },
+        {
+          "id": 3,
+          "question": "A security professional is stationed at a front desk and is responsible for access control. An individual arrives without proper identification and insists on entering a restricted area. What is the most appropriate first step the security professional should take?",
+          "options": [
+            "Politely deny access and explain the site's identification policy.",
+            "Immediately call the police to report a trespasser.",
+            "Allow the individual access to avoid a confrontation.",
+            "Physically block the individual from entering the area."
+          ],
+          "correctAnswer": "Politely deny access and explain the site's identification policy.",
+          "explanation": "The first step in access control is to enforce the established policy through clear communication. The guard should professionally and politely state the rules for entry and deny access. Escalating to physical intervention or calling the police should only occur if the individual refuses to comply and attempts to force entry."
+        },
+        {
+          "id": 4,
+          "question": "When documenting an incident in a notebook, which principle is most critical for ensuring the notes can be used as evidence?",
+          "options": [
+            "Recording information that is objective, factual, and chronological.",
+            "Using personal shorthand to write notes faster.",
+            "Including personal opinions about who was at fault.",
+            "Waiting until the end of the shift to write down all details from memory."
+          ],
+          "correctAnswer": "Recording information that is objective, factual, and chronological.",
+          "explanation": "Security reports and notes must be objective, factual, accurate, and written in chronological order to be considered credible evidence. Opinions, assumptions, and unverified information should be avoided. Notes should be taken at the time of the incident or as soon as possible thereafter to ensure accuracy."
+        },
+        {
+          "id": 5,
+          "question": "During a routine patrol of an office building after hours, a security professional discovers a broken window and signs of a forced entry. What should be their immediate priority?",
+          "options": [
+            "Contact the building manager to report the property damage.",
+            "Enter the office to determine what was stolen.",
+            "Clean up the broken glass to prevent injuries.",
+            "Secure their own safety and then notify law enforcement."
+          ],
+          "correctAnswer": "Contact the building manager to report the property damage.",
+          "explanation": "Upon discovering a potential crime scene, a security professional's first priority is their own safety. They should not enter the area as the suspect may still be present. The correct procedure is to withdraw to a safe location, notify the police immediately, and then inform site management while protecting the scene from contamination."
+        },
+        {
+          "id": 6,
+          "question": "Which of the following best describes an effective foot patrol technique?",
+          "options": [
+            "Varying the patrol route and timing to avoid predictability.",
+            "Always using the same route and schedule to ensure consistency.",
+            "Engaging in long conversations with staff to build rapport.",
+            "Keeping your eyes focused straight ahead to appear more alert."
+          ],
+          "correctAnswer": "Varying the patrol route and timing to avoid predictability.",
+          "explanation": "Predictable patrol patterns can be exploited by criminals. Varying the route and timing of patrols makes it difficult for someone to predict the security guard's location, thus enhancing the deterrent effect of the patrol. While consistency in covering all areas is important, the pattern should not become routine."
+        }
+      ]
+    },
+    {
+      "name": "ABST - Alberta Basic Security Training Communication and Professionalism Questions and Answers",
+      "sourceUrl": "https://practicetestgeeks.com/abst-alberta-basic-security-training-communication-and-professionalism-questions-and-answers",
+      "questions": [
+        {
+          "id": 7,
+          "question": "A security professional is approached by an individual who is visibly agitated and speaking in a loud, confrontational tone. Which of the following is the most effective initial communication strategy to de-escalate the situation?",
+          "options": [
+            "Adopt a non-threatening posture and use active listening to understand their concerns.",
+            "Immediately assert your authority and instruct the person to calm down.",
+            "Ignore the individual's tone and continue with your patrol duties.",
+            "Radio for backup immediately before engaging with the individual."
+          ],
+          "correctAnswer": "Adopt a non-threatening posture and use active listening to understand their concerns.",
+          "explanation": "Adopting a non-threatening posture, maintaining open body language, and using active listening are key de-escalation techniques. This approach helps the agitated individual feel heard and respected, which can reduce hostility and open the door for a peaceful resolution. Asserting authority can escalate the situation, and ignoring the person or immediately calling for backup without assessment can be counterproductive."
+        },
+        {
+          "id": 8,
+          "question": "According to the Alberta Security Services Code of Conduct, which of the following behaviours best demonstrates professionalism and integrity?",
+          "options": [
+            "Maintaining a neat, clean, and complete uniform while on duty.",
+            "Accepting a small cash tip from a grateful client for a job well done.",
+            "Discussing details of a workplace incident with a colleague from a different site.",
+            "Using a personal cell phone for non-emergency calls when not actively engaged with the public."
+          ],
+          "correctAnswer": "Maintaining a neat, clean, and complete uniform while on duty.",
+          "explanation": "The Code of Conduct for security professionals in Alberta emphasizes maintaining a professional demeanor, which includes being in a clean and complete uniform at all times while on duty. Accepting tips, sharing confidential incident details, and inappropriate use of personal devices are generally considered unprofessional and may violate company policy and the code of conduct."
+        },
+        {
+          "id": 9,
+          "question": "A security professional is asked by a member of the public for information about the building's security systems. The professional knows that this information is confidential. What is the most appropriate response?",
+          "options": [
+            "Politely decline to provide the information, explaining that it is confidential for security reasons.",
+            "Provide general, non-sensitive information to be helpful.",
+            "Disclose the information, as customer service is a top priority.",
+            "Direct the person to your supervisor to make the decision."
+          ],
+          "correctAnswer": "Politely decline to provide the information, explaining that it is confidential for security reasons.",
+          "explanation": "Security professionals have a duty to protect confidential information. The most appropriate and professional response is to politely and firmly decline the request, providing a brief, general reason (e.g., for safety and security). Disclosing any information could create a security risk. While involving a supervisor is an option, the professional should be confident in denying requests for confidential data."
+        },
+        {
+          "id": 10,
+          "question": "While on patrol, you encounter a person in distress who appears to be experiencing a mental health crisis. Which communication principle is most important in this scenario?",
+          "options": [
+            "Exhibiting empathy and using a calm, steady tone of voice.",
+            "Using complex language to show your expertise.",
+            "Speaking loudly and issuing direct commands to establish control.",
+            "Maintaining intense, direct eye contact to show you are serious."
+          ],
+          "correctAnswer": "Exhibiting empathy and using a calm, steady tone of voice.",
+          "explanation": "When dealing with individuals who may be experiencing a mental health crisis, it is crucial to use empathy, patience, and a calm, non-threatening tone. This approach helps to avoid escalating their agitation and builds a rapport that can lead to a safer outcome for everyone involved. Loud commands and intense eye contact can be perceived as aggressive and counterproductive."
+        },
+        {
+          "id": 11,
+          "question": "Which of the following is a primary reason why maintaining neutrality is a critical aspect of a security professional's communication during a dispute between two individuals?",
+          "options": [
+            "To build trust and ensure all parties perceive the security professional as fair and unbiased.",
+            "To ensure a quicker resolution to the conflict.",
+            "To identify who is at fault more easily.",
+            "To avoid personal involvement and reduce report writing time."
+          ],
+          "correctAnswer": "To build trust and ensure all parties perceive the security professional as fair and unbiased.",
+          "explanation": "Maintaining neutrality is essential for a security professional acting as a mediator. By not taking sides, the professional fosters an environment where both parties feel they are being treated fairly. This impartiality is crucial for building the trust needed to de-escalate the situation and guide the individuals toward a peaceful resolution."
+        },
+        {
+          "id": 12,
+          "question": "A tenant in a residential building reports a noise complaint about their neighbour. After speaking with the neighbour, the security professional determines the noise was reasonable and within the building's rules. The tenant who made the complaint is still upset. What is the most professional way to communicate the outcome?",
+          "options": [
+            "Acknowledge the complainant's frustration, clearly explain the findings based on the rules, and document the interaction.",
+            "Inform the complainant that they were wrong and should not have called security.",
+            "Suggest that the two tenants resolve the issue themselves without security involvement.",
+            "Tell the complainant you will issue a warning to the neighbour anyway to make them feel better."
+          ],
+          "correctAnswer": "Acknowledge the complainant's frustration, clearly explain the findings based on the rules, and document the interaction.",
+          "explanation": "Professional communication involves being respectful and clear, even when delivering an outcome someone may not like. Acknowledging their feelings (empathy), explaining the decision based on objective rules, and properly documenting the event is the most professional approach. This validates the person's concern while upholding the rules and creating an accurate record."
+        }
+      ]
+    },
+    {
+      "name": "ABST - Alberta Basic Security Training Documentation and Evidence Questions and Answers",
+      "sourceUrl": "https://practicetestgeeks.com/abst-alberta-basic-security-training-documentation-and-evidence-questions-and-answers",
+      "questions": [
+        {
+          "id": 13,
+          "question": "When documenting an incident in a notebook, which of the following is a critical rule to ensure its admissibility and credibility in court?",
+          "options": [
+            "Drawing a single line through any errors and initialing the change.",
+            "Leaving blank spaces between entries to add more details later.",
+            "Removing pages with errors to keep the notebook tidy.",
+            "Using a pencil to allow for easy corrections and updates."
+          ],
+          "correctAnswer": "Drawing a single line through any errors and initialing the change.",
+          "explanation": "To maintain the integrity of a security professional's notebook as a legal document, all entries must be permanent and unaltered. If an error is made, the correct procedure is to cross it out with a single line so it remains legible, and then initial the change to show who made the correction and when. Removing pages, leaving blank spaces, or using erasable ink can compromise the notebook's credibility and suggest that the notes have been tampered with."
+        },
+        {
+          "id": 14,
+          "question": "A security professional is writing an incident report about a theft. Which of the following statements is the most appropriate and objective for the report?",
+          "options": [
+            "I observed an individual conceal two items under their jacket and exit without paying.",
+            "The suspect looked guilty and was probably a drug user.",
+            "A man in a blue jacket stole the items because he was acting suspiciously.",
+            "The individual, who appeared nervous and shifty, took the merchandise."
+          ],
+          "correctAnswer": "I observed an individual conceal two items under their jacket and exit without paying.",
+          "explanation": "Incident reports must be based on objective, factual observations. Stating exactly what was seen ('conceal two items under their jacket and exit without paying') is a factual account. The other options include subjective opinions, assumptions about the person's motives or character ('looked guilty', 'probably a drug user', 'appeared nervous'), which are inappropriate for a professional report and can undermine its credibility."
+        },
+        {
+          "id": 15,
+          "question": "Which of the following best describes the primary purpose of maintaining a 'chain of custody' for a piece of evidence found at a scene?",
+          "options": [
+            "To provide a chronological record of everyone who has handled the evidence.",
+            "To determine the monetary value of the evidence.",
+            "To ensure the evidence is properly labeled with the date and time.",
+            "To quickly identify the original owner of the item."
+          ],
+          "correctAnswer": "To provide a chronological record of everyone who has handled the evidence.",
+          "explanation": "The chain of custody is a legal principle that requires the chronological documentation of the seizure, custody, control, transfer, analysis, and disposition of evidence. Its primary purpose is to prove that the evidence has not been tampered with, altered, or substituted from the moment it was collected to the moment it is presented in court, thus maintaining its integrity."
+        },
+        {
+          "id": 16,
+          "question": "While on patrol, you witness a verbal altercation that does not escalate physically and resolves on its own. According to ABST standards for documentation, what is the correct course of action?",
+          "options": [
+            "Make a detailed entry in your notebook about the observation.",
+            "Only report the incident if one of the individuals files a formal complaint.",
+            "Ignore the event as it resolved without physical conflict.",
+            "Verbally inform the next guard on shift but do not write it down."
+          ],
+          "correctAnswer": "Make a detailed entry in your notebook about the observation.",
+          "explanation": "Security professionals are required to document their findings, observations, and actions taken during their shift. Even incidents that resolve themselves should be noted. This creates a complete record of activities on the property, which can be useful for identifying patterns, demonstrating due diligence, or recalling details for a future investigation."
+        },
+        {
+          "id": 17,
+          "question": "When taking a statement from a witness after an incident, what is the most critical piece of information to obtain and record, besides their account of the event?",
+          "options": [
+            "Their full name and contact information.",
+            "Their opinion on who was at fault.",
+            "Their previous history of witnessing incidents.",
+            "Their emotional reaction to the event."
+          ],
+          "correctAnswer": "Their full name and contact information.",
+          "explanation": "While the witness's account is crucial, obtaining their full name and contact information is essential for any follow-up that may be required by supervisors, clients, or law enforcement. Without this information, the statement may be of limited use as it cannot be properly verified or followed up on."
+        },
+        {
+          "id": 18,
+          "question": "Which of the '5 W's and H' is being addressed when a security professional documents the 'actions taken' in an incident report?",
+          "options": [
+            "How",
+            "What",
+            "Why",
+            "Who"
+          ],
+          "correctAnswer": "How",
+          "explanation": "The 'actions taken' section of an incident report explains 'How' the security professional responded to the incident. It details the sequence of events and steps taken to manage, control, or resolve the situation, such as notifying supervisors, contacting emergency services, or preserving the scene. 'What' describes the incident itself, 'Who' identifies the people involved, and 'Why' often involves speculation which should be avoided."
+        }
+      ]
+    },
+    {
+      "name": "ABST - Alberta Basic Security Training Emergency Response Procedures Questions and Answers",
+      "sourceUrl": "https://practicetestgeeks.com/abst-alberta-basic-security-training-emergency-response-procedures-questions-and-answers",
+      "questions": [
+        {
+          "id": 19,
+          "question": "While on patrol in a commercial building, a security professional discovers a small, contained fire in a wastebasket. After ensuring the immediate area is clear of people, what is the MOST appropriate next step according to standard emergency procedures?",
+          "options": [
+            "Immediately pull the nearest fire alarm to alert all building occupants.",
+            "Attempt to extinguish the fire using a suitable, nearby fire extinguisher.",
+            "Call their supervisor to report the fire and await instructions.",
+            "Close the door to the room to contain the smoke and evacuate the building."
+          ],
+          "correctAnswer": "Immediately pull the nearest fire alarm to alert all building occupants.",
+          "explanation": "The primary responsibility in a fire emergency is to ensure life safety. Activating the fire alarm is the most effective way to immediately alert everyone in the building to the danger and initiate an orderly evacuation. While extinguishing a small fire may be possible, it should only be considered after the alarm has been raised and if it is safe to do so."
+        },
+        {
+          "id": 20,
+          "question": "A security professional receives a telephone bomb threat for the facility they are monitoring. Which of the following is the most critical initial action they should take?",
+          "options": [
+            "Attempt to keep the caller on the line as long as possible while discreetly alerting a colleague or supervisor to notify the police.",
+            "Immediately evacuate the building by announcing the threat over the PA system.",
+            "Hang up the phone and call 911 to report the threat.",
+            "Initiate a building search for suspicious packages based on the information provided."
+          ],
+          "correctAnswer": "Attempt to keep the caller on the line as long as possible while discreetly alerting a colleague or supervisor to notify the police.",
+          "explanation": "Standard bomb threat procedures emphasize gathering as much information as possible from the caller. Keeping the line open allows for the potential to trace the call and for the security professional to listen for background noises and note details about the caller's voice and speech patterns, which is invaluable for the police investigation. A colleague should make the call to 911 while the professional continues to gather intelligence."
+        },
+        {
+          "id": 21,
+          "question": "In the event of a medical emergency where a person is found unresponsive, what is the primary role of an ABST-certified security professional who does NOT have advanced medical training?",
+          "options": [
+            "Secure the scene to ensure the safety of the victim and bystanders, and call for professional medical help.",
+            "Administer CPR and first aid immediately, regardless of training level.",
+            "Move the person to a more comfortable location before calling for help.",
+            "Search the individual's belongings for medical identification or information."
+          ],
+          "correctAnswer": "Secure the scene to ensure the safety of the victim and bystanders, and call for professional medical help.",
+          "explanation": "The primary role of a security professional in a medical emergency is to ensure the scene is safe for everyone, prevent further harm, and activate the professional emergency response system (i.e., call 911 or the site's emergency number). Unless specifically trained and certified in first aid/CPR, they should not perform medical interventions, as this could cause further injury."
+        },
+        {
+          "id": 22,
+          "question": "Which of the following describes the security professional's main responsibility during a building evacuation?",
+          "options": [
+            "Directing people to the nearest exits and then to the designated muster point.",
+            "Searching every room to ensure they are empty before leaving.",
+            "Fighting the fire or containing the hazard that caused the evacuation.",
+            "Locking all exterior doors to prevent unauthorized entry after everyone is out."
+          ],
+          "correctAnswer": "Directing people to the nearest exits and then to the designated muster point.",
+          "explanation": "During an evacuation, a security professional's key role is to facilitate the safe and orderly exit of all occupants. This involves providing clear directions, maintaining calm, and guiding people towards pre-determined safe assembly areas (muster points). Comprehensive searches should be left to emergency services (e.g., the fire department)."
+        },
+        {
+          "id": 23,
+          "question": "A security professional is tasked with performing a 'fire watch' because the building's sprinkler system is temporarily out of service. What is the main duty associated with this role?",
+          "options": [
+            "Patrolling the designated areas to detect any signs of fire and being prepared to alert occupants and emergency services.",
+            "Manually activating the fire alarm every hour to test its functionality.",
+            "Repairing the faulty sprinkler system as quickly as possible.",
+            "Keeping a detailed log of everyone who enters and exits the building."
+          ],
+          "correctAnswer": "Patrolling the designated areas to detect any signs of fire and being prepared to alert occupants and emergency services.",
+          "explanation": "A fire watch is implemented when fire suppression or detection systems are non-functional. The security professional's duty is to act as a human monitoring system, actively patrolling for any evidence of a fire (smoke, flames, unusual odours) and to be ready to initiate emergency procedures, including alerting people and calling the fire department."
+        },
+        {
+          "id": 24,
+          "question": "After a serious security incident, such as a physical altercation, has been resolved and emergency services have been contacted, what is a security professional's most important follow-up responsibility?",
+          "options": [
+            "Completing a detailed and accurate incident report as soon as possible.",
+            "Discussing the incident with other staff to get their perspectives.",
+            "Immediately taking personal time off to de-stress.",
+            "Cleaning the area where the incident occurred to restore normalcy."
+          ],
+          "correctAnswer": "Completing a detailed and accurate incident report as soon as possible.",
+          "explanation": "Thorough and accurate documentation is a critical component of emergency response and post-incident procedure. An incident report serves as an official record for legal, insurance, and internal review purposes. It must be completed while the details are fresh in the professional's mind to ensure accuracy."
+        }
+      ]
+    },
+    {
+      "name": "ABST - Alberta Basic Security Training Health and Safety Questions and Answers",
+      "sourceUrl": "https://practicetestgeeks.com/abst-alberta-basic-security-training-health-and-safety-questions-and-answers",
+      "questions": [
+        {
+          "id": 25,
+          "question": "Which of the following best describes the primary purpose of the Workplace Hazardous Materials Information System (WHMIS)?",
+          "options": [
+            "To give workers and employers information about hazardous products used in the workplace.",
+            "To provide safety training for operating heavy machinery.",
+            "To mandate the use of specific Personal Protective Equipment for all jobs.",
+            "To regulate the transportation of dangerous goods on public highways."
+          ],
+          "correctAnswer": "To give workers and employers information about hazardous products used in the workplace.",
+          "explanation": "WHMIS is Canada's national standard for communicating information about the safe handling and use of hazardous products in the workplace. It involves specific labels, Safety Data Sheets (SDSs), and worker education programs. Transportation of Dangerous Goods (TDG) is a separate regulation."
+        },
+        {
+          "id": 26,
+          "question": "Under Alberta's Occupational Health and Safety (OHS) Act, workers have three fundamental rights. These are the right to know, the right to participate, and the right to:",
+          "options": [
+            "refuse unsafe work.",
+            "demand immediate supervisor dismissal.",
+            "receive premium pay for hazardous tasks.",
+            "ignore safety regulations they deem unnecessary."
+          ],
+          "correctAnswer": "refuse unsafe work.",
+          "explanation": "The three basic rights for workers under Alberta OHS are the right to know about workplace hazards, the right to participate in health and safety matters, and the right to refuse work they believe is unsafe without fear of reprisal."
+        },
+        {
+          "id": 27,
+          "question": "While patrolling a parkade, a security professional notices a large puddle of clear, odorless liquid on the floor in a dimly lit corner. There are no warning signs present. What is the most significant and immediate health and safety hazard this situation presents?",
+          "options": [
+            "A slip and fall hazard.",
+            "A potential biohazard risk.",
+            "A fire hazard from a flammable liquid.",
+            "An air quality concern."
+          ],
+          "correctAnswer": "A slip and fall hazard.",
+          "explanation": "While other hazards could exist, the most immediate, common, and likely danger in this scenario is that a person could slip on the liquid, fall, and sustain an injury. Hazard identification requires recognizing the most direct and probable risk first, which in this case is a slip and fall."
+        },
+        {
+          "id": 28,
+          "question": "A security professional is assigned to work a 12-hour overnight shift alone in a large, isolated warehouse. According to Alberta's OHS regulations for working alone, what is the employer's primary responsibility?",
+          "options": [
+            "To develop an effective system of regular communication with the worker.",
+            "To provide the worker with a company vehicle for personal use.",
+            "To ensure the worker has at least three years of security experience.",
+            "To pay the worker a legislated 'lone worker' premium."
+          ],
+          "correctAnswer": "To develop an effective system of regular communication with the worker.",
+          "explanation": "Alberta's OHS Code requires employers to conduct a hazard assessment for lone workers and establish an effective communication system. This system must include regular contact at intervals appropriate to the nature of the work to ensure the worker's well-being."
+        },
+        {
+          "id": 29,
+          "question": "A security professional is required to wear a hard hat and steel-toed boots while patrolling a construction site. This equipment is an example of which type of hazard control in the 'hierarchy of controls'?",
+          "options": [
+            "Personal Protective Equipment (PPE)",
+            "Elimination",
+            "Engineering Control",
+            "Administrative Control"
+          ],
+          "correctAnswer": "Personal Protective Equipment (PPE)",
+          "explanation": "A hard hat and boots are forms of Personal Protective Equipment (PPE). In the hierarchy of controls, PPE is considered the last line of defense, used after attempts to eliminate the hazard, use engineering controls (like barriers), or use administrative controls (like safety procedures)."
+        },
+        {
+          "id": 30,
+          "question": "While on duty, a security professional discovers a contractor who has fallen from a ladder and is conscious but in obvious pain and unable to move. After ensuring the scene is safe for everyone, what should be the security professional's immediate priority?",
+          "options": [
+            "Activate emergency medical services (call 911).",
+            "Attempt to move the contractor to a more comfortable position.",
+            "Question the contractor about what caused the fall for the report.",
+            "Secure the ladder as potential evidence."
+          ],
+          "correctAnswer": "Activate emergency medical services (call 911).",
+          "explanation": "The primary responsibility in a medical emergency is the well-being of the injured person. For a potentially serious injury, such as a fall from a height, the correct and immediate action is to call for professional medical help (911). Moving the person could worsen potential spinal injuries, and detailed investigation can wait until after aid has been summoned and rendered."
+        }
+      ]
+    },
+    {
+      "name": "ABST - Alberta Basic Security Training Introduction to Security Industry Questions and Answers",
+      "sourceUrl": "https://practicetestgeeks.com/abst-alberta-basic-security-training-introduction-to-security-industry-questions-and-answers",
+      "questions": [
+        {
+          "id": 31,
+          "question": "Which of the following is the primary role of a security professional as defined by the Security Services and Investigators Act of Alberta?",
+          "options": [
+            "To protect an organization's property, personnel, and information.",
+            "To enforce all federal and provincial laws.",
+            "To conduct arrests and criminal investigations.",
+            "To provide emergency medical services."
+          ],
+          "correctAnswer": "To protect an organization's property, personnel, and information.",
+          "explanation": "The Security Services and Investigators Act defines a security guard's role as protecting an organization's property, personnel, and information against threats like fire, theft, vandalism, and illegal entry. While they may assist with incidents, their primary function is protection, not law enforcement or medical services."
+        },
+        {
+          "id": 32,
+          "question": "A security professional in Alberta is required to be licensed. Who is the governing body responsible for issuing this license?",
+          "options": [
+            "The Government of Alberta, specifically through Alberta Justice.",
+            "The local municipal police service.",
+            "The Royal Canadian Mounted Police (RCMP).",
+            "A private industry-led association."
+          ],
+          "correctAnswer": "The Government of Alberta, specifically through Alberta Justice.",
+          "explanation": "In Alberta, the licensing of security professionals is a provincial responsibility managed under the Security Services and Investigators Act. Alberta Justice is the government body that issues these licenses, ensuring all applicants meet the required standards."
+        },
+        {
+          "id": 33,
+          "question": "While on duty at a shopping mall, a security professional observes an individual shoplifting. According to the Criminal Code of Canada, what is the security professional's authority in this situation?",
+          "options": [
+            "They can perform a citizen's arrest because they witnessed an indictable offence.",
+            "They have the same authority as a police officer to make an arrest.",
+            "They are only authorized to observe and report and cannot detain the individual.",
+            "They must obtain a warrant before they can take any action."
+          ],
+          "correctAnswer": "They can perform a citizen's arrest because they witnessed an indictable offence.",
+          "explanation": "Under Section 494 of the Criminal Code of Canada, any person, including a security professional, may arrest without a warrant someone they find committing an indictable offence. Shoplifting is considered an indictable offence. The security professional is acting as a private citizen in this capacity and must deliver the arrested person to a peace officer forthwith."
+        },
+        {
+          "id": 34,
+          "question": "Which of the following best describes the principle of 'professional deportment' for a security professional?",
+          "options": [
+            "Maintaining a professional appearance and a calm, courteous demeanor.",
+            "Completing detailed and accurate incident reports.",
+            "Conducting frequent and random patrols of the assigned area.",
+            "Having advanced knowledge of all site-specific emergency procedures."
+          ],
+          "correctAnswer": "Maintaining a professional appearance and a calm, courteous demeanor.",
+          "explanation": "Professional deportment refers to a security professional's conduct and appearance. This includes being well-groomed, wearing a proper uniform, and interacting with the public in a calm, respectful, and courteous manner. It is a key component of professionalism in the security industry."
+        },
+        {
+          "id": 35,
+          "question": "A security professional is asked by their supervisor to perform a task that they believe is illegal. What is the most appropriate course of action for the professional to take?",
+          "options": [
+            "Refuse to perform the task and report the request to a higher authority or the proper regulatory body.",
+            "Follow the supervisor's order to avoid being insubordinate.",
+            "Perform the task but anonymously report the supervisor afterward.",
+            "Ask a colleague to perform the task instead."
+          ],
+          "correctAnswer": "Refuse to perform the task and report the request to a higher authority or the proper regulatory body.",
+          "explanation": "A security professional's primary duty is to act lawfully and ethically. If a supervisor orders an illegal act, the professional must refuse. The proper response is to decline the order and report the situation to a higher level of management within the company or, if necessary, to the provincial registrar responsible for security licensing."
+        },
+        {
+          "id": 36,
+          "question": "Under the Security Services and Investigators Act regulations, what is a key requirement regarding the uniform worn by a security professional?",
+          "options": [
+            "It must not resemble the uniform of a police officer.",
+            "It must be black or navy blue in color.",
+            "It must be approved by the local police service.",
+            "It must have the security professional's name embroidered on it."
+          ],
+          "correctAnswer": "It must not resemble the uniform of a police officer.",
+          "explanation": "The regulations under the Security Services and Investigators Act explicitly state that a security professional's uniform must not resemble that of a police officer or other law enforcement agencies. This is to prevent public confusion and ensure a clear distinction between private security and public law enforcement."
+        }
+      ]
+    },
+    {
+      "name": "ABST - Alberta Basic Security Training The Canadian Legal System Questions and Answers",
+      "sourceUrl": "https://practicetestgeeks.com/abst-alberta-basic-security-training-the-canadian-legal-system-questions-and-answers",
+      "questions": [
+        {
+          "id": 37,
+          "question": "A security professional is patrolling a private property and witnesses an individual breaking into a vehicle. According to Section 494 of the Criminal Code of Canada, what is the most appropriate initial action for the security professional to take?",
+          "options": [
+            "Arrest the individual and immediately notify law enforcement.",
+            "Use any force necessary to immediately subdue and search the individual.",
+            "Observe from a distance and wait for the property owner to arrive before acting.",
+            "Verbally confront the individual and demand they return any stolen items."
+          ],
+          "correctAnswer": "Arrest the individual and immediately notify law enforcement.",
+          "explanation": "Section 494 of the Criminal Code of Canada allows any person, including a security professional, to arrest without a warrant someone they find committing an indictable offence. After making a citizen's arrest, the individual must be delivered to a peace officer forthwith."
+        },
+        {
+          "id": 38,
+          "question": "Which of the following BEST describes the primary difference between criminal law and civil law in the Canadian legal system?",
+          "options": [
+            "Criminal law focuses on punishing acts against society, while civil law aims to resolve private disputes between individuals or organizations.",
+            "Criminal law involves federal statutes, while civil law is exclusively based on provincial statutes.",
+            "The standard of proof in criminal law is a 'balance of probabilities', whereas in civil law it is 'beyond a reasonable doubt'.",
+            "Criminal law cases are heard in the Court of King's Bench, while civil cases are heard in the Provincial Court."
+          ],
+          "correctAnswer": "Criminal law focuses on punishing acts against society, while civil law aims to resolve private disputes between individuals or organizations.",
+          "explanation": "Criminal law deals with offences against the state or society as a whole (e.g., theft, assault) and aims to punish offenders. Civil law addresses private disputes between parties (e.g., contract breaches, property damage) and seeks to provide compensation or remedies."
+        },
+        {
+          "id": 39,
+          "question": "A security professional in Alberta is required to present their license upon request. Which of the following parties is NOT explicitly mentioned as someone they must show their license to?",
+          "options": [
+            "An on-duty firefighter",
+            "A police officer",
+            "A member of the public",
+            "Their direct supervisor"
+          ],
+          "correctAnswer": "An on-duty firefighter",
+          "explanation": "While it is good practice to cooperate with all emergency services, legislation like Ontario's similar Private Security and Investigative Services Act, which mirrors common requirements, specifies that a license must be shown to police, employers, and any member of the public who asks. There is no specific legal requirement to present it to a firefighter unless they are acting in a law enforcement capacity."
+        },
+        {
+          "id": 40,
+          "question": "In Alberta's court system, which court is the highest court of appeal within the province?",
+          "options": [
+            "The Court of Appeal of Alberta",
+            "The Supreme Court of Canada",
+            "The Court of King's Bench",
+            "The Alberta Court of Justice"
+          ],
+          "correctAnswer": "The Court of Appeal of Alberta",
+          "explanation": "The Court of Appeal of Alberta is the highest court in the province and hears appeals from decisions made by the Court of King's Bench and the Alberta Court of Justice. The Supreme Court of Canada is the highest court for the entire country, not just the province."
+        },
+        {
+          "id": 41,
+          "question": "While on duty, a security professional is advised by their employer's policy not to physically intervene in any situation. However, they witness a serious assault in progress. Under the Criminal Code, what is the security professional's legal standing?",
+          "options": [
+            "Their legal authority to act as a private citizen under the Criminal Code may supersede the employer's policy in certain situations.",
+            "They must adhere strictly to the employer's policy and can be charged if they intervene.",
+            "They are granted the same intervention powers as a peace officer in this scenario.",
+            "They are only permitted to intervene if the victim is a client or employee on the property."
+          ],
+          "correctAnswer": "Their legal authority to act as a private citizen under the Criminal Code may supersede the employer's policy in certain situations.",
+          "explanation": "A security professional's powers of arrest and use of force are derived from the Criminal Code, which applies to all private citizens. While company policy is important, the Criminal Code provides legal authority to act (e.g., make a citizen's arrest, use reasonable force to prevent an offence) that is independent of employer policy. A restrictive policy does not remove these legal rights, although acting against policy may have employment consequences."
+        },
+        {
+          "id": 42,
+          "question": "The Canadian Charter of Rights and Freedoms protects individuals from unreasonable search and seizure by government agents. What is the primary implication of this for a security professional acting as a private citizen?",
+          "options": [
+            "They are not bound by the Charter because they are not government agents, but they still cannot search individuals without consent or legal justification.",
+            "They can search anyone they have arrested without any restrictions.",
+            "They must obtain a warrant before searching any person or their belongings.",
+            "They have the same search powers as a police officer upon making a citizen's arrest."
+          ],
+          "correctAnswer": "They are not bound by the Charter because they are not government agents, but they still cannot search individuals without consent or legal justification.",
+          "explanation": "The Charter primarily applies to actions by the government and its agents (like police). While a security professional is a private citizen and not directly bound by the Charter in the same way, common law and the Criminal Code still place strict limits on their ability to search individuals. A search without consent is generally illegal and can constitute assault, unless it is conducted as a safety measure incidental to a lawful arrest."
+        }
+      ]
+    },
+    {
+      "name": "ABST Crowd Control and Public Safety",
+      "sourceUrl": "https://practicetestgeeks.com/abst-crowd-control-and-public-safety-practice-test",
+      "questions": [
+        {
+          "id": 43,
+          "question": "What is the primary goal of crowd management for a security officer?",
+          "options": [
+            "Prevent dangerous crowding and maintain orderly movement",
+            "Arrest troublemakers immediately",
+            "Limit venue capacity to half",
+            "Enforce dress codes strictly"
+          ],
+          "correctAnswer": "Prevent dangerous crowding and maintain orderly movement",
+          "explanation": "Crowd management aims to prevent dangerous overcrowding and guide people safely through an area."
+        },
+        {
+          "id": 44,
+          "question": "When controlling an unruly crowd, a security officer should first:",
+          "options": [
+            "Attempt verbal de-escalation and clear communication",
+            "Call police immediately",
+            "Use physical force to disperse the crowd",
+            "Lock all exits"
+          ],
+          "correctAnswer": "Attempt verbal de-escalation and clear communication",
+          "explanation": "Verbal de-escalation is always the first step before escalating to other measures."
+        },
+        {
+          "id": 45,
+          "question": "Which technique helps prevent crowd crush at a venue entrance?",
+          "options": [
+            "Staggered or controlled entry with queuing systems",
+            "Letting everyone in at once",
+            "Closing the entrance entirely",
+            "Allowing VIPs only"
+          ],
+          "correctAnswer": "Staggered or controlled entry with queuing systems",
+          "explanation": "Staggered entry prevents dangerous pile-ups by regulating the flow of people entering."
+        },
+        {
+          "id": 46,
+          "question": "A 'soft barrier' in crowd control refers to:",
+          "options": [
+            "Ropes, stanchions, or fencing used to guide crowd flow",
+            "A padded wall",
+            "A team of officers forming a line",
+            "A verbal warning zone"
+          ],
+          "correctAnswer": "Ropes, stanchions, or fencing used to guide crowd flow",
+          "explanation": "Soft barriers like ropes and stanchions physically guide crowd movement without aggression."
+        },
+        {
+          "id": 47,
+          "question": "If a fight breaks out in a crowd, a security officer's immediate priority is to:",
+          "options": [
+            "Isolate the individuals involved and prevent the conflict from spreading",
+            "Join the fight to stop it faster",
+            "Evacuate the entire venue",
+            "Wait for police before acting"
+          ],
+          "correctAnswer": "Isolate the individuals involved and prevent the conflict from spreading",
+          "explanation": "Isolating those involved prevents the altercation from drawing in bystanders and escalating."
+        },
+        {
+          "id": 48,
+          "question": "What does the term 'egress' mean in the context of public safety?",
+          "options": [
+            "Exit route or means of leaving a space",
+            "Entry point into a building",
+            "Emergency alarm system",
+            "Security patrol route"
+          ],
+          "correctAnswer": "Exit route or means of leaving a space",
+          "explanation": "Egress refers to exit pathways, which must remain clear and accessible at all times for safety."
+        }
+      ]
+    },
+    {
+      "name": "ABST Crowd Control and Public Safety 2",
+      "sourceUrl": "https://practicetestgeeks.com/abst-crowd-control-and-public-safety-2-practice-test",
+      "questions": [
+        {
+          "id": 49,
+          "question": "During a large outdoor event, where should security officers be strategically positioned?",
+          "options": [
+            "At key points including entries, exits, perimeter, and high-risk zones",
+            "All at the main stage",
+            "Only at entry and exit points",
+            "Inside the control room only"
+          ],
+          "correctAnswer": "At key points including entries, exits, perimeter, and high-risk zones",
+          "explanation": "Comprehensive positioning at entries, exits, perimeter, and risk zones ensures full coverage of the event."
+        },
+        {
+          "id": 50,
+          "question": "What is a 'hot spot' in crowd control terminology?",
+          "options": [
+            "A zone with elevated risk of conflict or crowd compression",
+            "An area with strong Wi-Fi signal",
+            "A VIP section",
+            "A first aid station"
+          ],
+          "correctAnswer": "A zone with elevated risk of conflict or crowd compression",
+          "explanation": "Hot spots are areas identified as high-risk where incidents are more likely to occur and require extra monitoring."
+        },
+        {
+          "id": 51,
+          "question": "Why is it important for security officers to know the venue layout before an event?",
+          "options": [
+            "To efficiently respond to incidents and guide people to exits",
+            "To find the best parking spot",
+            "To rearrange furniture as needed",
+            "To memorize the menu"
+          ],
+          "correctAnswer": "To efficiently respond to incidents and guide people to exits",
+          "explanation": "Knowing the layout allows officers to respond quickly to emergencies and direct crowds to safety."
+        },
+        {
+          "id": 52,
+          "question": "Which behavior in a crowd should alert a security officer to a potential problem?",
+          "options": [
+            "Sudden surges, pushing, or signs of panic spreading through the crowd",
+            "People standing in line quietly",
+            "Groups taking photographs",
+            "People wearing similar clothing"
+          ],
+          "correctAnswer": "Sudden surges, pushing, or signs of panic spreading through the crowd",
+          "explanation": "Sudden surges or spreading panic are warning signs of a crowd incident developing that require immediate attention."
+        },
+        {
+          "id": 53,
+          "question": "When using a radio to report a crowd incident, a security officer should:",
+          "options": [
+            "Speak clearly, briefly, and provide location, nature of incident, and assistance needed",
+            "Give long detailed speeches to fully explain the situation",
+            "Avoid radio communication to prevent panic",
+            "Wait until the incident is fully resolved"
+          ],
+          "correctAnswer": "Speak clearly, briefly, and provide location, nature of incident, and assistance needed",
+          "explanation": "Concise radio communication ensures supervisors receive actionable information immediately."
+        },
+        {
+          "id": 54,
+          "question": "What is the safest way for a security officer to move through a dense crowd?",
+          "options": [
+            "Move sideways, use polite verbal warnings, and follow natural crowd flow",
+            "Push through aggressively to clear the path",
+            "Shout loudly for people to move",
+            "Use a physical barrier to part the crowd"
+          ],
+          "correctAnswer": "Move sideways, use polite verbal warnings, and follow natural crowd flow",
+          "explanation": "Moving with the crowd flow while using verbal warnings prevents aggravating the crowd and causing further compression."
+        }
+      ]
+    },
+    {
+      "name": "ABST Crowd Control and Public Safety 3",
+      "sourceUrl": "https://practicetestgeeks.com/abst-crowd-control-and-public-safety-3-practice-test",
+      "questions": [
+        {
+          "id": 55,
+          "question": "What does 'crowd density' mean and why does it matter to a security officer?",
+          "options": [
+            "The number of people per square meter; high density increases crush risk",
+            "How noisy a crowd is; loud crowds are dangerous",
+            "How fast people are moving; fast crowds are harder to control",
+            "The number of security officers relative to crowd size"
+          ],
+          "correctAnswer": "The number of people per square meter; high density increases crush risk",
+          "explanation": "High crowd density per square meter significantly increases the risk of crowd crush injuries and fatalities."
+        },
+        {
+          "id": 56,
+          "question": "Which of the following is an example of passive crowd control?",
+          "options": [
+            "Barriers, signage, and lighting that guide crowd behavior without officer intervention",
+            "Officers physically pushing people back",
+            "Shouting orders at the crowd",
+            "Closing the event early"
+          ],
+          "correctAnswer": "Barriers, signage, and lighting that guide crowd behavior without officer intervention",
+          "explanation": "Passive crowd control uses environmental design—barriers, signs, and lighting—to influence behavior without direct officer involvement."
+        },
+        {
+          "id": 57,
+          "question": "A security officer notices a section of a concert venue is becoming dangerously overcrowded. What is the correct action?",
+          "options": [
+            "Immediately inform supervisors and begin redirecting people to less crowded areas",
+            "Ignore it unless a fight breaks out",
+            "Announce over the PA that the event is cancelled",
+            "Remove all barriers in the area"
+          ],
+          "correctAnswer": "Immediately inform supervisors and begin redirecting people to less crowded areas",
+          "explanation": "Proactive reporting and crowd redirection can prevent a dangerous crush before it causes harm."
+        },
+        {
+          "id": 58,
+          "question": "What is the purpose of a pre-event briefing for security staff?",
+          "options": [
+            "To ensure all officers know the venue layout, roles, communication channels, and emergency procedures",
+            "To assign officers their lunch breaks",
+            "To review the entertainment lineup",
+            "To distribute uniforms only"
+          ],
+          "correctAnswer": "To ensure all officers know the venue layout, roles, communication channels, and emergency procedures",
+          "explanation": "Pre-event briefings align all security staff on their responsibilities, communication protocols, and emergency plans."
+        },
+        {
+          "id": 59,
+          "question": "In crowd control, what does the acronym 'SOP' stand for?",
+          "options": [
+            "Standard Operating Procedure",
+            "Security Officer Protocol",
+            "Situation Output Plan",
+            "Safety Officer Position"
+          ],
+          "correctAnswer": "Standard Operating Procedure",
+          "explanation": "SOP stands for Standard Operating Procedure, which outlines the approved steps for handling various security scenarios."
+        },
+        {
+          "id": 60,
+          "question": "How should a security officer handle a person who refuses to follow crowd control instructions?",
+          "options": [
+            "Calmly repeat the instruction, explain the reason, and involve a supervisor if the person remains non-compliant",
+            "Physically remove them without warning",
+            "Escalate immediately to police",
+            "Ignore the situation and move on"
+          ],
+          "correctAnswer": "Calmly repeat the instruction, explain the reason, and involve a supervisor if the person remains non-compliant",
+          "explanation": "Calm repetition, explanation, and supervisor escalation follows the proper use-of-force continuum and minimizes confrontation."
+        }
+      ]
+    },
+    {
+      "name": "ABST Surveillance and Patrol Techniques",
+      "sourceUrl": "https://practicetestgeeks.com/abst-surveillance-and-patrol-techniques-practice-test",
+      "questions": [
+        {
+          "id": 61,
+          "question": "What is the main purpose of security patrols?",
+          "options": [
+            "To deter crime, detect threats, and ensure safety through visible presence",
+            "To give the officer exercise",
+            "To check that lights are working",
+            "To socialize with employees"
+          ],
+          "correctAnswer": "To deter crime, detect threats, and ensure safety through visible presence",
+          "explanation": "Patrols deter criminal activity through visible presence and allow early detection of threats or hazards."
+        },
+        {
+          "id": 62,
+          "question": "Why should a security officer vary their patrol route and timing?",
+          "options": [
+            "To prevent predictability that could be exploited by criminals",
+            "To cover more ground faster",
+            "To avoid fatigue from repetition",
+            "To check all CCTV cameras equally"
+          ],
+          "correctAnswer": "To prevent predictability that could be exploited by criminals",
+          "explanation": "Random patrol patterns prevent criminals from learning schedules and exploiting predictable gaps in coverage."
+        },
+        {
+          "id": 63,
+          "question": "When conducting an interior patrol, which area should a security officer pay special attention to?",
+          "options": [
+            "All areas including stairwells, restrooms, storage rooms, and blind spots",
+            "Common areas with high foot traffic only",
+            "Only the executive floors",
+            "Just the entrance lobby"
+          ],
+          "correctAnswer": "All areas including stairwells, restrooms, storage rooms, and blind spots",
+          "explanation": "Thorough interior patrols include low-traffic and blind-spot areas where incidents or hazards are more likely to go unnoticed."
+        },
+        {
+          "id": 64,
+          "question": "What is a 'clocking system' (guard tour system) used for in security patrol?",
+          "options": [
+            "Verifying that an officer physically visited specific checkpoints during their patrol",
+            "Tracking employee work hours",
+            "Measuring how fast an officer walks",
+            "Recording visitor check-ins"
+          ],
+          "correctAnswer": "Verifying that an officer physically visited specific checkpoints during their patrol",
+          "explanation": "Guard tour systems use checkpoints to verify and log that an officer completed their patrol route as required."
+        },
+        {
+          "id": 65,
+          "question": "If a security officer discovers an unlocked door that should be secured during a patrol, they should:",
+          "options": [
+            "Secure it, document the incident, and report it to a supervisor promptly",
+            "Leave it and report at the end of the shift",
+            "Assume someone left it open intentionally and ignore it",
+            "Lock it and tell no one"
+          ],
+          "correctAnswer": "Secure it, document the incident, and report it to a supervisor promptly",
+          "explanation": "Securing the door immediately addresses the risk, and documentation ensures accountability and follow-up."
+        },
+        {
+          "id": 66,
+          "question": "What should a security officer do if they observe suspicious activity during a patrol?",
+          "options": [
+            "Observe and gather information, report to supervisor, and follow instructions",
+            "Confront the suspect alone immediately",
+            "Ignore it if no crime has occurred yet",
+            "Chase the suspect off the property"
+          ],
+          "correctAnswer": "Observe and gather information, report to supervisor, and follow instructions",
+          "explanation": "Observing and reporting suspicious activity follows safe protocol and allows a coordinated response without unnecessary risk."
+        }
+      ]
+    },
+    {
+      "name": "ABST Surveillance and Patrol Techniques 2",
+      "sourceUrl": "https://practicetestgeeks.com/abst-surveillance-and-patrol-techniques-2-practice-test",
+      "questions": [
+        {
+          "id": 67,
+          "question": "Which of the following best describes the role of CCTV in a security program?",
+          "options": [
+            "CCTV supports officers by providing surveillance coverage and recorded evidence",
+            "CCTV replaces the need for security officers",
+            "CCTV is only useful after an incident occurs",
+            "CCTV is used exclusively to monitor employees"
+          ],
+          "correctAnswer": "CCTV supports officers by providing surveillance coverage and recorded evidence",
+          "explanation": "CCTV enhances security by extending surveillance reach and providing recorded footage for incident investigation."
+        },
+        {
+          "id": 68,
+          "question": "When monitoring CCTV, a security officer notices someone loitering near a restricted area. What is the correct response?",
+          "options": [
+            "Alert a patrol officer to investigate and document the observation",
+            "Switch to another camera and ignore the person",
+            "Broadcast an announcement to scare them off",
+            "Wait until they attempt to enter before acting"
+          ],
+          "correctAnswer": "Alert a patrol officer to investigate and document the observation",
+          "explanation": "Alerting a patrol officer enables a physical investigation while the CCTV operator continues monitoring the situation."
+        },
+        {
+          "id": 69,
+          "question": "How should CCTV footage be handled when it captures evidence of an incident?",
+          "options": [
+            "Preserve and secure it, and hand it over to authorized personnel or law enforcement as required",
+            "Delete it after reviewing to protect privacy",
+            "Share it on social media for public awareness",
+            "Edit it to remove irrelevant portions before reporting"
+          ],
+          "correctAnswer": "Preserve and secure it, and hand it over to authorized personnel or law enforcement as required",
+          "explanation": "CCTV evidence must be preserved without alteration and released only to authorized parties to maintain its legal integrity."
+        },
+        {
+          "id": 70,
+          "question": "What is a 'blind spot' in a security surveillance context?",
+          "options": [
+            "An area not covered by CCTV cameras or direct observation",
+            "An officer with poor eyesight",
+            "A camera that is pointed at the ground",
+            "A room with no lighting"
+          ],
+          "correctAnswer": "An area not covered by CCTV cameras or direct observation",
+          "explanation": "Blind spots are gaps in camera or patrol coverage where criminal activity could go undetected."
+        },
+        {
+          "id": 71,
+          "question": "What does pan-tilt-zoom (PTZ) capability on a CCTV camera allow?",
+          "options": [
+            "The operator to remotely adjust the camera's direction and zoom level",
+            "The camera to record in color only",
+            "The camera to activate an alarm automatically",
+            "The camera to broadcast live to the internet"
+          ],
+          "correctAnswer": "The operator to remotely adjust the camera's direction and zoom level",
+          "explanation": "PTZ cameras allow operators to remotely track subjects and zoom in on details without moving the physical camera position."
+        },
+        {
+          "id": 72,
+          "question": "Why is proper lighting important for security surveillance at night?",
+          "options": [
+            "It improves CCTV image quality and deters criminal activity",
+            "It reduces electricity costs",
+            "It is required only for parking lots",
+            "It helps security officers stay awake"
+          ],
+          "correctAnswer": "It improves CCTV image quality and deters criminal activity",
+          "explanation": "Adequate lighting enhances camera visibility and acts as a deterrent since criminals prefer to operate in darkness."
+        }
+      ]
+    },
+    {
+      "name": "ABST Surveillance and Patrol Techniques 3",
+      "sourceUrl": "https://practicetestgeeks.com/abst-surveillance-and-patrol-techniques-3-practice-test",
+      "questions": [
+        {
+          "id": 73,
+          "question": "What information should a security officer record in a patrol log?",
+          "options": [
+            "Time, location, observations, any anomalies found, and actions taken during the patrol",
+            "Only incidents where someone was arrested",
+            "A general statement that the patrol was completed",
+            "Personal opinions about the people encountered"
+          ],
+          "correctAnswer": "Time, location, observations, any anomalies found, and actions taken during the patrol",
+          "explanation": "Detailed patrol logs create an accurate record of the officer's activity and any conditions observed during the shift."
+        },
+        {
+          "id": 74,
+          "question": "During a patrol, a security officer smells smoke but cannot see flames. They should:",
+          "options": [
+            "Investigate cautiously, activate the fire alarm if warranted, and follow the emergency plan",
+            "Ignore it until they see visible fire",
+            "Immediately evacuate the building alone without alerting anyone",
+            "Open all windows to ventilate the building"
+          ],
+          "correctAnswer": "Investigate cautiously, activate the fire alarm if warranted, and follow the emergency plan",
+          "explanation": "A smell of smoke requires investigation and may warrant activating the alarm and following the established emergency response plan."
+        },
+        {
+          "id": 75,
+          "question": "A key principle of 'observe and report' means a security officer should:",
+          "options": [
+            "Document and report all observations accurately without personal interpretation or alteration",
+            "Only report crimes that were witnessed personally",
+            "Only report what a supervisor specifically asks about",
+            "Delay reports until the end of the shift"
+          ],
+          "correctAnswer": "Document and report all observations accurately without personal interpretation or alteration",
+          "explanation": "Accurate, unbiased observation and prompt reporting ensures decision-makers have reliable information to act on."
+        },
+        {
+          "id": 76,
+          "question": "What is the purpose of a 'perimeter patrol' in security operations?",
+          "options": [
+            "To check the outer boundary of a property for breaches, threats, or vulnerabilities",
+            "To greet visitors at the main entrance",
+            "To monitor employee entrances only",
+            "To conduct a fire safety inspection"
+          ],
+          "correctAnswer": "To check the outer boundary of a property for breaches, threats, or vulnerabilities",
+          "explanation": "Perimeter patrols focus on the outer boundary to detect unauthorized access attempts, damage, or security vulnerabilities."
+        },
+        {
+          "id": 77,
+          "question": "Which of the following is considered proper professional conduct for a security officer on patrol?",
+          "options": [
+            "Remaining alert, maintaining a professional appearance, and engaging courteously with people encountered",
+            "Using personal headphones to pass the time",
+            "Sitting down whenever possible to conserve energy",
+            "Checking personal social media on patrol"
+          ],
+          "correctAnswer": "Remaining alert, maintaining a professional appearance, and engaging courteously with people encountered",
+          "explanation": "Alertness, professionalism, and courteous engagement reflect the standards expected of a licensed security officer."
+        },
+        {
+          "id": 78,
+          "question": "What is 'post orders' in security terminology?",
+          "options": [
+            "Written instructions specific to a site that detail an officer's duties, procedures, and responsibilities at that location",
+            "Instructions for ordering supplies at a security post",
+            "A command from a superior officer to take a position",
+            "The schedule for officer rotation"
+          ],
+          "correctAnswer": "Written instructions specific to a site that detail an officer's duties, procedures, and responsibilities at that location",
+          "explanation": "Post orders are site-specific written guidelines that define exactly what an officer must do at that particular assignment."
+        }
+      ]
+    },
+    {
+      "name": "FREE ABST Access Control & Alarm Systems Questions and Answers",
+      "sourceUrl": "https://practicetestgeeks.com/free-abst-access-control-alarm-systems-questions-and-answers",
+      "questions": [
+        {
+          "id": 79,
+          "question": "What is the primary purpose of access control in a security setting?",
+          "options": [
+            "To ensure only authorized individuals enter restricted areas",
+            "To prevent theft of company assets",
+            "To monitor employees' work hours",
+            "To detect fire hazards"
+          ],
+          "correctAnswer": "To ensure only authorized individuals enter restricted areas",
+          "explanation": "The primary purpose of access control in a security setting is to regulate and restrict entry to specific areas or facilities, ensuring that only authorized individuals can gain access. This measure is fundamental for protecting assets, sensitive information, and personnel by preventing unauthorized intrusion. It helps maintain the security and integrity of a location."
+        },
+        {
+          "id": 80,
+          "question": "Which of the following is an example of a physical access control device?",
+          "options": [
+            "Key cards and keypads",
+            "Surveillance cameras",
+            "Motion detectors",
+            "Security alarm systems"
+          ],
+          "correctAnswer": "Key cards and keypads",
+          "explanation": "Physical access control devices are tangible tools used to manage and restrict entry to a physical space. Key cards and keypads are prime examples, as they require a physical credential or a code to unlock a door or gate. In contrast, surveillance cameras and motion detectors are typically part of an intrusion detection system, and alarm systems signal a breach rather than directly controlling access."
+        },
+        {
+          "id": 81,
+          "question": "What is the correct response when an access card fails to work?",
+          "options": [
+            "Request verification of the individual's identity and authorization",
+            "Allow the person entry if they claim they are authorized",
+            "Deny entry and report the incident",
+            "Disable the entire access control system"
+          ],
+          "correctAnswer": "Request verification of the individual's identity and authorization",
+          "explanation": "When an access card fails, a security guard should not automatically grant or deny entry. The correct procedure is to request verification of the individual's identity through alternative means, such as a photo ID, and confirm their authorization to access the area. This ensures that security protocols are maintained while addressing legitimate access issues and allows for reporting any system malfunctions."
+        },
+        {
+          "id": 82,
+          "question": "What should a security guard do if an alarm is triggered?",
+          "options": [
+            "Investigate the cause of the alarm while following the employer's protocols",
+            "Silence the alarm and resume normal duties",
+            "Immediately assume a break-in has occurred",
+            "Ignore the alarm if it has triggered before without issues"
+          ],
+          "correctAnswer": "Investigate the cause of the alarm while following the employer's protocols",
+          "explanation": "When an alarm is triggered, a security guard's immediate responsibility is to investigate the cause systematically and safely, strictly adhering to established employer protocols. This involves assessing the situation to determine if it's a false alarm or a genuine threat, and then taking appropriate action, which may include contacting emergency services or other personnel. Silencing or ignoring alarms without investigation is a serious security breach."
+        },
+        {
+          "id": 83,
+          "question": "What is the purpose of an intrusion detection system?",
+          "options": [
+            "To detect unauthorized access or breaches",
+            "To monitor employee attendance",
+            "To prevent fires from starting in sensitive areas",
+            "To maintain video surveillance records"
+          ],
+          "correctAnswer": "To detect unauthorized access or breaches",
+          "explanation": "An intrusion detection system (IDS) is specifically designed to identify and alert security personnel to unauthorized entry or attempts to breach a secured area. These systems utilize various sensors, such as motion detectors, door/window contacts, and glass break sensors, to detect suspicious activity and trigger an alarm. Their primary function is to provide early warning of a security incident."
+        },
+        {
+          "id": 84,
+          "question": "Which of the following is a security guard's responsibility when monitoring access control systems?",
+          "options": [
+            "Reporting and documenting any irregularities or breaches",
+            "Repairing technical issues with the system",
+            "Preventing authorized individuals from entering",
+            "Reprogramming the access system as needed"
+          ],
+          "correctAnswer": "Reporting and documenting any irregularities or breaches",
+          "explanation": "A security guard's responsibility when monitoring access control systems is primarily observational and responsive. They are tasked with diligently watching the system for any unusual activity, unauthorized access attempts, or system malfunctions. Crucially, they must accurately report and document any irregularities or breaches according to established procedures, ensuring that security incidents are recorded and addressed."
+        }
+      ]
+    },
+    {
+      "name": "FREE ABST Emergency Response & Preparedness Questions and Answers",
+      "sourceUrl": "https://practicetestgeeks.com/free-abst-emergency-response-preparedness-questions-and-answers",
+      "questions": [
+        {
+          "id": 85,
+          "question": "What is the primary responsibility of a security guard during an emergency?",
+          "options": [
+            "Ensure personal safety first",
+            "Manage and direct emergency services",
+            "Take control of all operations at the site",
+            "Prevent the media from accessing the scene"
+          ],
+          "correctAnswer": "Ensure personal safety first",
+          "explanation": "In any emergency situation, a security guard's paramount responsibility is to ensure their own personal safety first. This principle, often called \"safety first,\" allows the guard to remain effective and avoid becoming another casualty, which would further complicate the emergency response. Once personal safety is secured, they can then focus on their other duties, such as assisting others and managing the scene."
+        },
+        {
+          "id": 86,
+          "question": "Which of the following is the best example of an emergency procedure for a fire?",
+          "options": [
+            "Evacuating people to a safe location and contacting the fire department",
+            "Attempting to extinguish all fires immediately",
+            "Waiting for law enforcement before taking action",
+            "Locking the building to prevent theft during the fire"
+          ],
+          "correctAnswer": "Evacuating people to a safe location and contacting the fire department",
+          "explanation": "In a fire emergency, the immediate priorities are life safety and alerting professional responders. The best action for a security guard is to facilitate the safe evacuation of occupants to designated assembly points and promptly contact the fire department. Attempting to extinguish all fires is dangerous and should only be done if the fire is small, contained, and the guard is trained and equipped to do so without risk."
+        },
+        {
+          "id": 87,
+          "question": "What is a security guard's role during a medical emergency?",
+          "options": [
+            "Perform CPR or first aid if trained and certified",
+            "Provide advanced medical care to the victim",
+            "Diagnose the victim's condition before calling an ambulance",
+            "Wait for emergency services to arrive without intervening"
+          ],
+          "correctAnswer": "Perform CPR or first aid if trained and certified",
+          "explanation": "During a medical emergency, a security guard's role is to provide immediate assistance within the scope of their training and certification. If they are trained and certified in CPR or first aid, they should administer it while waiting for professional medical services to arrive. Their responsibilities also include securing the scene, calling for help, and providing comfort, but not diagnosing conditions or providing advanced medical care."
+        },
+        {
+          "id": 88,
+          "question": "In an active shooter scenario, what is the recommended initial action?",
+          "options": [
+            "Lock or barricade yourself and others in a safe location",
+            "Attempt to disarm the shooter immediately",
+            "Confront the shooter to divert their attention",
+            "Ignore the situation and continue patrol duties"
+          ],
+          "correctAnswer": "Lock or barricade yourself and others in a safe location",
+          "explanation": "In an active shooter scenario, the recommended initial action, often summarized as \"Run, Hide, Fight,\" prioritizes self-preservation. If evacuation is not possible, the next best step is to hide by locking or barricading oneself and others in a secure location, making it difficult for the shooter to gain access. Confronting the shooter should only be a last resort when lives are in imminent danger and no other option exists."
+        },
+        {
+          "id": 89,
+          "question": "What is a security guard's responsibility during a hazardous material spill?",
+          "options": [
+            "Secure the area and alert appropriate authorities",
+            "Attempt to clean the spill immediately",
+            "Transport the hazardous material to a safer location",
+            "Ignore the spill if it appears contained"
+          ],
+          "correctAnswer": "Secure the area and alert appropriate authorities",
+          "explanation": "When encountering a hazardous material spill, a security guard's primary responsibility is to ensure the safety of themselves and others by securing the area to prevent further exposure or spread. They must then immediately alert the appropriate emergency services, such as the fire department or a hazmat team, who are trained and equipped to handle such incidents. Attempting to clean the spill without proper training and equipment can be extremely dangerous."
+        },
+        {
+          "id": 90,
+          "question": "Which of the following is part of a well-prepared emergency response plan?",
+          "options": [
+            "All of the above",
+            "A list of emergency contacts and their roles",
+            "Pre-approved instructions for media communication",
+            "Evacuation routes and designated assembly points"
+          ],
+          "correctAnswer": "All of the above",
+          "explanation": "A comprehensive emergency response plan includes multiple critical components to ensure an organized and effective reaction to various incidents. This encompasses clear communication protocols, such as a list of emergency contacts and their roles, detailed safety procedures like evacuation routes and designated assembly points, and defined responsibilities for all personnel involved. All these elements are vital for minimizing harm and managing emergencies efficiently."
+        }
+      ]
+    },
+    {
+      "name": "FREE ABST Introduction and Security Procedures Questions and Answers",
+      "sourceUrl": "https://practicetestgeeks.com/free-abst-introduction-and-security-procedures-questions-and-answers",
+      "questions": [
+        {
+          "id": 91,
+          "question": "With consent of both parties, an employer may attempt to resolve an issue between a security professional and a complainant.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "In Alberta Basic Security Training, it is understood that employers can play a role in mediating disputes. With the explicit consent of both the security professional and the complainant, an employer is permitted to attempt to resolve an issue. This process aims to find an amicable solution and can prevent further escalation or formal complaints."
+        },
+        {
+          "id": 92,
+          "question": "You can be held criminally responsible if you use excessive force.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Security professionals, like all citizens, are legally accountable for their actions. Using excessive force, meaning force beyond what is reasonably necessary for self-defense or to effect a lawful arrest, can lead to criminal charges. This principle underscores the importance of using only necessary and proportionate force in any given situation."
+        },
+        {
+          "id": 93,
+          "question": "You may arrest an individual who you believe has committed a crime even though you did not see the criminal activity take place.",
+          "options": [
+            "False",
+            "True"
+          ],
+          "correctAnswer": "False",
+          "explanation": "In Alberta, security professionals generally operate under the same arrest powers as a private citizen, which are outlined in the Criminal Code of Canada. A private citizen can only arrest someone they find committing an indictable offense, or if they have reasonable grounds to believe an indictable offense has been committed and are in fresh pursuit. Therefore, you cannot simply arrest someone based on belief without witnessing the crime or being in fresh pursuit."
+        },
+        {
+          "id": 94,
+          "question": "A post-order explains your duties for a particular shift.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "A post-order is a crucial document in security operations that clearly outlines the specific duties, responsibilities, and procedures for a security professional during a particular shift or at a specific post. It serves as a guide to ensure consistent and effective performance of assigned tasks. Adhering to post-orders is a fundamental aspect of professional security work."
+        },
+        {
+          "id": 95,
+          "question": "Do not tell an individual they are being interviewed or they may stop telling the truth.",
+          "options": [
+            "False",
+            "True"
+          ],
+          "correctAnswer": "False",
+          "explanation": "It is generally recommended to inform an individual that they are being interviewed. Transparency can build trust and encourage cooperation, rather than deterring truthfulness. While the term 'interview' might sound formal, clearly stating the purpose of questioning helps maintain ethical standards and ensures the individual understands the context of the conversation."
+        },
+        {
+          "id": 96,
+          "question": "LEAPS is a method for making a decision about whether or not to use force.",
+          "options": [
+            "False",
+            "True"
+          ],
+          "correctAnswer": "False",
+          "explanation": "LEAPS is an acronym for Listen, Empathize, Ask, Paraphrase, Summarize, and is a communication technique used for de-escalation and effective interaction, not for deciding whether or not to use force. Decisions about using force are typically guided by principles of necessity, proportionality, and legal frameworks like the Criminal Code of Canada. LEAPS helps in managing situations verbally to potentially avoid the need for force."
+        },
+        {
+          "id": 97,
+          "question": "Leave space between entries so you can come back and add details later when you remember them.",
+          "options": [
+            "False",
+            "True"
+          ],
+          "correctAnswer": "False",
+          "explanation": "When maintaining security logs or notebooks, it is critical to ensure that all entries are continuous and complete. Leaving blank spaces between entries is considered poor practice because it creates opportunities for unauthorized additions or alterations later, which can compromise the integrity and credibility of the record. Entries should be chronological and filled without gaps."
+        },
+        {
+          "id": 98,
+          "question": "You should keep other security professionals away from a crime scene in order to protect evidence.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Protecting a crime scene is paramount to preserving evidence. Allowing unnecessary personnel, including other security professionals not directly involved in the initial response or investigation, to enter the scene can contaminate or destroy crucial evidence. Therefore, limiting access to only essential personnel is a standard procedure to maintain the integrity of the crime scene."
+        },
+        {
+          "id": 99,
+          "question": "if you hear a fire alarm, the first thing you should do is evacuate the building.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Upon hearing a fire alarm, the immediate priority is always the safety of occupants. Evacuating the building according to established emergency procedures is the first and most critical action to ensure everyone gets to a safe location. Other actions, like investigating the cause, come only after ensuring the safety of all individuals."
+        },
+        {
+          "id": 100,
+          "question": "The hazard assessment should be an ongoing process.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Hazard assessment is not a one-time event but a continuous process. Work environments and conditions can change, introducing new hazards or altering existing ones. Regular and ongoing hazard assessments ensure that potential risks are continuously identified, evaluated, and controlled, maintaining a safe working environment for security professionals and others."
+        }
+      ]
+    },
+    {
+      "name": "FREE ABST Legal Aspects and Authority Questions and Answers",
+      "sourceUrl": "https://practicetestgeeks.com/free-abst-legal-aspects-and-authority-questions-and-answers",
+      "questions": [
+        {
+          "id": 101,
+          "question": "What is the main legal authority for a security guard to make an arrest in Alberta?",
+          "options": [
+            "The Criminal Code of Canada",
+            "The Police Act",
+            "The Private Security Regulation Act",
+            "The Trespass to Premises"
+          ],
+          "correctAnswer": "The Criminal Code of Canada",
+          "explanation": "In Canada, the primary legal authority for a security guard to make an arrest, often referred to as a citizen's arrest, is derived from the Criminal Code of Canada. Section 494 of this federal legislation outlines the specific conditions under which any person, including a security guard, may lawfully arrest an individual. While other provincial acts govern security operations, the power to arrest stems from federal criminal law."
+        },
+        {
+          "id": 102,
+          "question": "Under what circumstances can a security guard use force?",
+          "options": [
+            "To protect themselves or others from harm",
+            "To remove someone from private property",
+            "To enforce company policies",
+            "Only when instructed by law enforcement"
+          ],
+          "correctAnswer": "To protect themselves or others from harm",
+          "explanation": "Security guards, like any citizen, are legally permitted to use reasonable force for the purpose of self-defense or the defense of others from harm. This authority is granted under the Criminal Code of Canada, which allows for the use of force that is necessary and proportionate to prevent an imminent threat. Force cannot be used simply to enforce company policies or remove someone unless there is a direct threat of harm."
+        },
+        {
+          "id": 103,
+          "question": "Which law governs a security guard's ability to ask someone to leave private property in Alberta?",
+          "options": [
+            "The Trespass to Premises Act",
+            "The Criminal Code of Canada",
+            "The Private Security Regulation Act",
+            "The Charter of Rights and Freedoms"
+          ],
+          "correctAnswer": "The Trespass to Premises Act",
+          "explanation": "In Alberta, a security guard's ability to ask someone to leave private property is primarily governed by the provincial Trespass to Premises Act. This legislation defines what constitutes trespassing and grants property owners, or their authorized agents, the legal right to remove individuals who are unlawfully present on their land. It provides the legal framework for managing access and maintaining order on private property."
+        },
+        {
+          "id": 104,
+          "question": "What must a security guard do immediately after making a citizen's arrest?",
+          "options": [
+            "Turn the individual over to law enforcement without delay",
+            "Inform the individual of the charges against them",
+            "Detain the individual until the employer arrives",
+            "Conduct a search of the individual"
+          ],
+          "correctAnswer": "Turn the individual over to law enforcement without delay",
+          "explanation": "After making a citizen's arrest, a security guard's authority to detain the individual is strictly limited and temporary. The Criminal Code of Canada mandates that the arrested person must be turned over to a peace officer (police) without delay. Failure to promptly deliver the detainee to law enforcement can result in the security guard being held legally liable for unlawful confinement."
+        },
+        {
+          "id": 105,
+          "question": "What does \"reasonable grounds\" mean in the context of a security guard's authority?",
+          "options": [
+            "A belief based on evidence that would convince a reasonable person",
+            "A suspicion based on a hunch",
+            "An assumption based on past behavior",
+            "A directive from the employer"
+          ],
+          "correctAnswer": "A belief based on evidence that would convince a reasonable person",
+          "explanation": "\"Reasonable grounds\" signifies a standard of belief that is objectively justifiable, meaning there must be factual evidence or observations that would lead an ordinary, prudent person to conclude that an offense has occurred or is about to occur. It is a higher standard than mere suspicion or a hunch, requiring concrete information to support actions like an arrest or search. This standard is crucial for ensuring legal and ethical security practices."
+        },
+        {
+          "id": 106,
+          "question": "Which of the following actions could lead to a security guard being held liable?",
+          "options": [
+            "All of the above",
+            "Arresting someone without reasonable grounds",
+            "Using excessive force during an arrest",
+            "Failing to turn over a detainee to the police promptly"
+          ],
+          "correctAnswer": "All of the above",
+          "explanation": "Security guards are legally accountable for their actions, and several missteps can lead to liability. Arresting someone without reasonable grounds constitutes unlawful confinement, using excessive force during an arrest can result in assault charges, and failing to promptly turn over a detainee to the police can also lead to legal repercussions. Any of these actions can expose the guard and their employer to civil lawsuits or criminal charges."
+        }
+      ]
+    },
+    {
+      "name": "FREE ABST Security Concept and Professionalism Questions and Answers",
+      "sourceUrl": "https://practicetestgeeks.com/free-abst-security-concept-and-professionalism-questions-and-answers",
+      "questions": [
+        {
+          "id": 107,
+          "question": "Section _____ of the Canadian Charter of Rights and Freedoms refers to being detained or imprisoned.",
+          "options": [
+            "9",
+            "7",
+            "11",
+            "15"
+          ],
+          "correctAnswer": "9",
+          "explanation": "Section 9 of the Canadian Charter of Rights and Freedoms specifically states that 'Everyone has the right not to be arbitrarily detained or imprisoned.' This section protects individuals from unlawful arrest or detention by authorities, including security professionals acting under certain powers. It's a fundamental right related to personal liberty."
+        },
+        {
+          "id": 108,
+          "question": "An individual security license may be transferred:",
+          "options": [
+            "Never",
+            "Only if the licensee moves to a different province",
+            "If approved by the issuing authority and under specific conditions",
+            "Automatically upon renewal"
+          ],
+          "correctAnswer": "Never",
+          "explanation": "An individual security license in Alberta is personal and non-transferable. It is issued to a specific person based on their qualifications, background checks, and training. It cannot be transferred to another individual or automatically renewed under different conditions, ensuring that only qualified and licensed individuals perform security duties."
+        },
+        {
+          "id": 109,
+          "question": "Security professionals are tasked with the protection of persons, property, and:",
+          "options": [
+            "Information",
+            "Livelihood",
+            "Assets",
+            "Environment"
+          ],
+          "correctAnswer": "Information",
+          "explanation": "Security professionals are primarily tasked with the protection of persons, property, and information. While assets and livelihood are related, 'information' specifically refers to sensitive data, intellectual property, and confidential records that require safeguarding in various organizational contexts. This broad scope reflects the diverse responsibilities of modern security roles."
+        },
+        {
+          "id": 110,
+          "question": "Professionalism is best demonstrated by:",
+          "options": [
+            "Your conduct and deportment",
+            "Your technical skills",
+            "Your physical fitness",
+            "Your ability to follow instructions"
+          ],
+          "correctAnswer": "Your conduct and deportment",
+          "explanation": "Professionalism in a security role is best demonstrated by one's conduct and deportment. This includes maintaining a professional appearance, exhibiting ethical behavior, communicating effectively, and demonstrating respect and integrity in all interactions. While skills and fitness are important, how one carries themselves and interacts with others is the primary indicator of professionalism."
+        },
+        {
+          "id": 111,
+          "question": "Security professionals in Alberta are licensed under the:",
+          "options": [
+            "Security Services and Investigators Act",
+            "Criminal Code of Canada",
+            "Alberta Security Regulations",
+            "Alberta Occupational Health and Safety Act"
+          ],
+          "correctAnswer": "Security Services and Investigators Act",
+          "explanation": "Security professionals in Alberta are licensed under the Security Services and Investigators Act. This provincial legislation sets out the requirements for licensing, training, conduct, and enforcement for individuals and businesses providing security services and investigative services in Alberta. It ensures industry standards and public safety."
+        },
+        {
+          "id": 112,
+          "question": "A public complaint against an individual security license holder must be filed within _____ days of the alleged incident.",
+          "options": [
+            "90",
+            "30",
+            "60",
+            "120"
+          ],
+          "correctAnswer": "90",
+          "explanation": "A public complaint against an individual security license holder in Alberta must be filed within 90 days of the alleged incident. This timeframe is set by the Security Services and Investigators Act to ensure that complaints are brought forward in a timely manner, allowing for effective investigation and resolution while evidence and memories are still fresh."
+        },
+        {
+          "id": 113,
+          "question": "Individuals holding an individual license in the province of Alberta may not refer to themselves as:",
+          "options": [
+            "Peace Officer",
+            "Security Guard",
+            "Investigator",
+            "Patrol Supervisor"
+          ],
+          "correctAnswer": "Peace Officer",
+          "explanation": "Individuals holding an individual security license in Alberta are explicitly prohibited from referring to themselves as 'Peace Officers.' Peace officers have specific legal powers and authorities granted under federal or provincial legislation (e.g., police officers, RCMP, certain bylaw officers). Security professionals, while having certain powers, do not hold the designation of a peace officer."
+        },
+        {
+          "id": 114,
+          "question": "_________________ utilized by licensed security professionals must be authorized by the Registrar.",
+          "options": [
+            "Batons",
+            "Firearms",
+            "Handcuffs",
+            "Pepper spray"
+          ],
+          "correctAnswer": "Batons",
+          "explanation": "Any specialized equipment utilized by licensed security professionals, such as batons, must be authorized by the Registrar under the Security Services and Investigators Act. This ensures that only approved and properly trained individuals use specific tools, maintaining public safety and accountability. Firearms and pepper spray are generally not permitted for security professionals in Alberta."
+        },
+        {
+          "id": 115,
+          "question": "When you arrest an individual, you have the option to tell the person to call:",
+          "options": [
+            "Their lawyer",
+            "Their family",
+            "Their employer",
+            "Their doctor"
+          ],
+          "correctAnswer": "Their lawyer",
+          "explanation": "When an individual is arrested, they have a fundamental legal right to consult with a lawyer. This right, often referred to as the 'right to counsel,' ensures that the arrested person can receive legal advice and representation. Security personnel, like law enforcement, are obligated to inform the individual of this right and provide a reasonable opportunity to exercise it, safeguarding their legal interests."
+        },
+        {
+          "id": 116,
+          "question": "A person commits an assault when he or she applies force to another person:",
+          "options": [
+            "Intentionally",
+            "Accidentally",
+            "Without permission",
+            "During self-defense"
+          ],
+          "correctAnswer": "Intentionally",
+          "explanation": "In legal contexts, an assault typically requires the intentional application of force to another person. This means the person committing the act must have meant to make contact or cause apprehension of contact, even if the resulting harm was not severe. Accidental contact or force used purely in self-defense generally does not meet the legal definition of assault, which hinges on the element of intent."
+        }
+      ]
+    }
+  ]
+}

@@ -35,7 +35,7 @@ export async function POST(req: NextRequest) {
     .map((t) => t.text)
     .join(" ");
   const retrievalQuery = `${scenarioId} ${guardLines}`.slice(0, 500);
-  const chunks = await retrieve(retrievalQuery, 5);
+  const chunks = await retrieve(retrievalQuery);
 
   const transcriptText = transcript
     .map((t) => `${t.role === "patron" ? "PATRON" : "GUARD"}: ${t.text}`)

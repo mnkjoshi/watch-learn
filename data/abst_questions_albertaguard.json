@@ -1,0 +1,989 @@
+{
+  "title": "ABST Practice Exam - Alberta Guard Training",
+  "source": "https://albertaguardtraining.ca/quiz/abst-practice-exam/",
+  "scrapedDate": "2026-04-25",
+  "totalQuestions": 92,
+  "questionsWithKnownAnswers": 92,
+  "questionsWithUnknownAnswers": 0,
+  "note": "All 92 questions were scraped and correct answers were recovered via multiple automated passes.",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Only security professionals working in public buildings require a licence.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "False",
+      "correctAnswerKnown": true
+    },
+    {
+      "id": 2,
+      "question": "Security professionals protect persons, property, and information.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "True",
+      "correctAnswerKnown": true
+    },
+    {
+      "id": 3,
+      "question": "The main duties of a security professional are to observe, arrest, and report.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "False",
+      "correctAnswerKnown": true
+    },
+    {
+      "id": 4,
+      "question": "The public has the right to file a complaint against a security guard without telling the guard they are doing so.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "True",
+      "correctAnswerKnown": true
+    },
+    {
+      "id": 5,
+      "question": "A security licence may be transferred to another employee at your company.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "False",
+      "correctAnswerKnown": true
+    },
+    {
+      "id": 6,
+      "question": "You may identify yourself as a peace officer if you hold a security licence.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "False",
+      "correctAnswerKnown": true
+    },
+    {
+      "id": 7,
+      "question": "The Canadian Charter of Rights and Freedoms does not pertain to a security professional.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "False",
+      "correctAnswerKnown": true
+    },
+    {
+      "id": 8,
+      "question": "A licensed security professional has the authority of a peace officer.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "False",
+      "correctAnswerKnown": true
+    },
+    {
+      "id": 9,
+      "question": "Security professionals are permitted to perform an arrest.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "True",
+      "correctAnswerKnown": true
+    },
+    {
+      "id": 10,
+      "question": "You may arrest an individual who you believe has committed a crime on a previous date.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "True",
+      "correctAnswerKnown": true
+    },
+    {
+      "id": 11,
+      "question": "If you arrest an individual, you must turn the person over to your supervisor.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "False",
+      "correctAnswerKnown": true
+    },
+    {
+      "id": 12,
+      "question": "You can be held criminally responsible if you use excessive force.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "True",
+      "correctAnswerKnown": true
+    },
+    {
+      "id": 13,
+      "question": "Section ________ of the Canadian Charter of Rights and Freedoms refers to being detained or imprisoned.",
+      "options": [
+        "9",
+        "10"
+      ],
+      "correctAnswer": "9",
+      "correctAnswerKnown": true
+    },
+    {
+      "id": 14,
+      "question": "Section 494 states you may arrest an individual who commits an indictable offence.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "True",
+      "correctAnswerKnown": true
+    },
+    {
+      "id": 15,
+      "question": "When you arrest an individual, you have the option to tell the person to call _____________________.",
+      "options": [
+        "A lawyer",
+        "Your Supervisor",
+        "Their mother"
+      ],
+      "correctAnswer": "A lawyer",
+      "correctAnswerKnown": true
+    },
+    {
+      "id": 16,
+      "question": "Aggravated assault is an example of a ___________________________ offence.",
+      "options": [
+        "Summary",
+        "Indictable",
+        "Hybrid"
+      ],
+      "correctAnswer": "Indictable",
+      "correctAnswerKnown": true
+    },
+    {
+      "id": 17,
+      "question": "Picking the lock on a secured office and removing items without permission is an example of _____________________________________________________.",
+      "options": [
+        "Theft",
+        "Break and Enter",
+        "Vandalism"
+      ],
+      "correctAnswer": "Break and Enter",
+      "correctAnswerKnown": true
+    },
+    {
+      "id": 18,
+      "question": "The ___________________________________________________________ is legislation which protects workers in the province of Alberta.",
+      "options": [
+        "Employment Standards Code and Regulation",
+        "Security Services and Investigators Act"
+      ],
+      "correctAnswer": "Employment Standards Code and Regulation",
+      "correctAnswerKnown": true
+    },
+    {
+      "id": 19,
+      "question": "Observing is the skill of telling others when they are in danger.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "False",
+      "correctAnswerKnown": true
+    },
+    {
+      "id": 20,
+      "question": "Vehicle patrol allows you to get a closer look at your site than foot patrol.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "False",
+      "correctAnswerKnown": true
+    },
+    {
+      "id": 21,
+      "question": "Individuals with an ID card may access all areas of the premises.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "False",
+      "correctAnswerKnown": true
+    },
+    {
+      "id": 22,
+      "question": "A crowd will only become a problem if there are many leaders present.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "False",
+      "correctAnswerKnown": true
+    },
+    {
+      "id": 23,
+      "question": "You should provide information to the media so they will stop asking questions.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "False",
+      "correctAnswerKnown": true
+    },
+    {
+      "id": 24,
+      "question": "Observing consists of the following three activities: _________________________, ___________________________, and ______________________________.",
+      "options": [
+        "Listen, empathize, ask",
+        "Noticing, interpreting, recalling",
+        "Observe, deter, report"
+      ],
+      "correctAnswer": "Noticing, interpreting, recalling",
+      "correctAnswerKnown": true
+    },
+    {
+      "id": 25,
+      "question": "You should use all your senses to continually _______________ the area while on patrol.",
+      "options": [
+        "Scan",
+        "Report"
+      ],
+      "correctAnswer": "Scan",
+      "correctAnswerKnown": true
+    },
+    {
+      "id": 26,
+      "question": "___________________________________________________________, _________________________________________________________, and __________________________________________________________ are three strategies to try when dealing with a worked-up crowd.",
+      "options": [
+        "Remove the leader then break the crowd into smaller groups and find a sympathetic leader to help you",
+        "Removing the leader then break the crowd into smaller groups  and call the police for assistance"
+      ],
+      "correctAnswer": "Remove the leader then break the crowd into smaller groups and find a sympathetic leader to help you",
+      "correctAnswerKnown": true
+    },
+    {
+      "id": 27,
+      "question": "Three key considerations before using force should be ___________________, _________________________, and _______________________________.",
+      "options": [
+        "How prepared are you, What is the situation, What do you know about the subject?",
+        "What color belt do you have in martial arts? Does the subject have a weapon, Do you have a weapon?",
+        "When was the last time you were at the gym, How big is the subject, Do you have backup?"
+      ],
+      "correctAnswer": "How prepared are you, What is the situation, What do you know about the subject?",
+      "correctAnswerKnown": true
+    },
+    {
+      "id": 28,
+      "question": "A security professional uses only verbal communication.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "False",
+      "correctAnswerKnown": true
+    },
+    {
+      "id": 29,
+      "question": "You should shout so that individuals will realize you have authority.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "False",
+      "correctAnswerKnown": true
+    },
+    {
+      "id": 30,
+      "question": "A clean, pressed uniform communicates a message.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "True",
+      "correctAnswerKnown": true
+    },
+    {
+      "id": 31,
+      "question": "Being an active listener means you are standing up as the other person is talking.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "False",
+      "correctAnswerKnown": true
+    },
+    {
+      "id": 32,
+      "question": "You are permitted to show anger when a person repeatedly insults you.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "False",
+      "correctAnswerKnown": true
+    },
+    {
+      "id": 33,
+      "question": "Do not tell an individual they are being interviewed or they may stop telling the truth.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "False",
+      "correctAnswerKnown": true
+    },
+    {
+      "id": 34,
+      "question": "Ask for __________________________ before interviewing someone.",
+      "options": [
+        "Permission",
+        "The time",
+        "Advice",
+        "The person responsible"
+      ],
+      "correctAnswer": "Permission",
+      "correctAnswerKnown": true
+    },
+    {
+      "id": 35,
+      "question": "____________________ is when you have preferences based upon an individual’s religion or ethnicity.",
+      "options": [
+        "Harassment",
+        "Discrimination",
+        "Stiga",
+        "Bias"
+      ],
+      "correctAnswer": "Bias",
+      "correctAnswerKnown": true
+    },
+    {
+      "id": 36,
+      "question": "Maintaining good posture while speaking with an individual is a sign of ________________________________ toward that person.",
+      "options": [
+        "Power",
+        "Respect",
+        "Indifference",
+        "Assertiveness"
+      ],
+      "correctAnswer": "Respect",
+      "correctAnswerKnown": true
+    },
+    {
+      "id": 37,
+      "question": "Up to _________ % of the meaning in conversations comes from non-verbal communication.",
+      "options": [
+        "60%",
+        "90%",
+        "25%"
+      ],
+      "correctAnswer": "90%",
+      "correctAnswerKnown": true
+    },
+    {
+      "id": 38,
+      "question": "Effective communication is: ______________________________ vs. arrogant, _________________________ vs. dismissive, and ________________________ vs. aggressive.",
+      "options": [
+        "Confident, Friendly, Assertive",
+        "Confident, Friendly, Aggressive",
+        "Confident, Dismissive, Assertive"
+      ],
+      "correctAnswer": "Confident, Friendly, Assertive",
+      "correctAnswerKnown": true
+    },
+    {
+      "id": 39,
+      "question": "A security professional does not need to carry a notebook if the employer provides a computer.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "False",
+      "correctAnswerKnown": true
+    },
+    {
+      "id": 40,
+      "question": "It is okay to tear out a notebook page to use for another purpose.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "False",
+      "correctAnswerKnown": true
+    },
+    {
+      "id": 41,
+      "question": "When writing time in a notebook the 24 hr clock should be used.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "True",
+      "correctAnswerKnown": true
+    },
+    {
+      "id": 42,
+      "question": "It is OK to leave space between entries so you can come back and add details later when you remember them.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "False",
+      "correctAnswerKnown": true
+    },
+    {
+      "id": 43,
+      "question": "Statements are an individual’s explanation of what took place.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "True",
+      "correctAnswerKnown": true
+    },
+    {
+      "id": 44,
+      "question": "A security professional will not need to give testimony in court if the notebook is accurate.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "False",
+      "correctAnswerKnown": true
+    },
+    {
+      "id": 45,
+      "question": "Notebook entries should record the who, ______, where, when, ______ and _____ information about incidents.",
+      "options": [
+        "What, Why and How",
+        "Time, Date, Location"
+      ],
+      "correctAnswer": "What, Why and How",
+      "correctAnswerKnown": true
+    },
+    {
+      "id": 46,
+      "question": "If a witness tells you they think a specific individual committed a criminal activity you should include it in your notes?",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "True",
+      "correctAnswerKnown": true
+    },
+    {
+      "id": 47,
+      "question": "Using inappropriate language or slang in your notebook is appropriate when:",
+      "options": [
+        "Someone has upset you and you document how you are feeling in that moment.",
+        "You are making note of a verbatim comment."
+      ],
+      "correctAnswer": "You are making note of a verbatim comment.",
+      "correctAnswerKnown": true
+    },
+    {
+      "id": 48,
+      "question": "To make a correction in a notebook entry, you should ___________________.",
+      "options": [
+        "Tear out the page and start again.",
+        "Draw a single line through the incorrect information and initial next to the change."
+      ],
+      "correctAnswer": "Draw a single line through the incorrect information and initial next to the change.",
+      "correctAnswerKnown": true
+    },
+    {
+      "id": 49,
+      "question": "The phonetic alphabet words for the letters A, M, and U are _____________, ________________, and ________________.",
+      "options": [
+        "Alpha, Mike, Uniform",
+        "Alpha, Mike, Unicorn",
+        "Apple, Mark, Uniform",
+        "Alpha, Memphis, Uniform"
+      ],
+      "correctAnswer": "Alpha, Mike, Uniform",
+      "correctAnswerKnown": true
+    },
+    {
+      "id": 50,
+      "question": "Why is it important to admit you cannot remember a detail in court?",
+      "options": [
+        "That way, they stop asking you questions, and it is over sooner.",
+        "It is better to say you cannot remember than to guess at what happened; it helps you to be more credible as a witness when you tell the truth."
+      ],
+      "correctAnswer": "It is better to say you cannot remember than to guess at what happened; it helps you to be more credible as a witness when you tell the truth.",
+      "correctAnswerKnown": true
+    },
+    {
+      "id": 51,
+      "question": "A security professional must focus only on burglar alarms.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "False",
+      "correctAnswerKnown": true
+    },
+    {
+      "id": 52,
+      "question": "If you hear a fire alarm, the first thing you should do is evacuate the building.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "False",
+      "correctAnswerKnown": true
+    },
+    {
+      "id": 53,
+      "question": "You do not need to record a false alarm in your notebook.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "False",
+      "correctAnswerKnown": true
+    },
+    {
+      "id": 54,
+      "question": "You may use water to put out all types of fires.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "False",
+      "correctAnswerKnown": true
+    },
+    {
+      "id": 55,
+      "question": "You should begin a search immediately after receiving a bomb threat.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "False",
+      "correctAnswerKnown": true
+    },
+    {
+      "id": 56,
+      "question": "Telling people to run during a building evacuation to help speed up the process.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "False",
+      "correctAnswerKnown": true
+    },
+    {
+      "id": 57,
+      "question": "An alarm system is made up of a __________, ________________, and _________________.",
+      "options": [
+        "Photo, Shock and Magnetic",
+        "Sensor, Transmitter and Control panel"
+      ],
+      "correctAnswer": "Sensor, Transmitter and Control panel",
+      "correctAnswerKnown": true
+    },
+    {
+      "id": 58,
+      "question": "A ________________sensor is a common device which uses a beam of light to transmit information.",
+      "options": [
+        "Motion",
+        "Photo"
+      ],
+      "correctAnswer": "Photo",
+      "correctAnswerKnown": true
+    },
+    {
+      "id": 59,
+      "question": "Your ____________ ______________ should tell you how your employer expects you to respond to alarm situations.",
+      "options": [
+        "Post Orders",
+        "Employee Handbook",
+        "Immediate Supervisor"
+      ],
+      "correctAnswer": "Post Orders",
+      "correctAnswerKnown": true
+    },
+    {
+      "id": 60,
+      "question": "You should familiarize yourself with the mobility and other special needs of individuals ____________ an emergency situation occurs.",
+      "options": [
+        "Before",
+        "During",
+        "After"
+      ],
+      "correctAnswer": "Before",
+      "correctAnswerKnown": true
+    },
+    {
+      "id": 61,
+      "question": "You should perform a _______________ scan of an area when looking for unusual items to ensure all possible locations are checked.",
+      "options": [
+        "Casual",
+        "Quick",
+        "Systematic"
+      ],
+      "correctAnswer": "Systematic",
+      "correctAnswerKnown": true
+    },
+    {
+      "id": 62,
+      "question": "Working night shift is an example of a low-risk duty.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "False",
+      "correctAnswerKnown": true
+    },
+    {
+      "id": 63,
+      "question": "You should exercise right before bedtime in order to get a good sleep.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "False",
+      "correctAnswerKnown": true
+    },
+    {
+      "id": 64,
+      "question": "You should not plan social events when you are working shift work.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "False",
+      "correctAnswerKnown": true
+    },
+    {
+      "id": 65,
+      "question": "Avoiding alcohol will help a shift worker cope better with unusual work hours.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "True",
+      "correctAnswerKnown": true
+    },
+    {
+      "id": 66,
+      "question": "Isolated work sites are considered a hazard.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "True",
+      "correctAnswerKnown": true
+    },
+    {
+      "id": 67,
+      "question": "Working at a parking lot during daytime hours is an example of a ______________ risk situation.",
+      "options": [
+        "Low",
+        "Medium",
+        "High"
+      ],
+      "correctAnswer": "Medium",
+      "correctAnswerKnown": true
+    },
+    {
+      "id": 68,
+      "question": "The ______________ with which events occur impacts the risk level.",
+      "options": [
+        "Frequency",
+        "Level"
+      ],
+      "correctAnswer": "Frequency",
+      "correctAnswerKnown": true
+    },
+    {
+      "id": 69,
+      "question": "Working at height without a safety rope is an example of ________________ type of hazard.",
+      "options": [
+        "Practice",
+        "Condition"
+      ],
+      "correctAnswer": "Practice",
+      "correctAnswerKnown": true
+    },
+    {
+      "id": 70,
+      "question": "Crowds are considered a form of hazard.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "True",
+      "correctAnswerKnown": true
+    },
+    {
+      "id": 71,
+      "question": "Afternoon workers should have their main meal __________________________.",
+      "options": [
+        "Middle of the day",
+        "Middle of their shift"
+      ],
+      "correctAnswer": "Middle of the day",
+      "correctAnswerKnown": true
+    },
+    {
+      "id": 72,
+      "question": "Wearing ___________________ issued by your employer is one way to minimize risk.",
+      "options": [
+        "A uniform",
+        "Safety equipment"
+      ],
+      "correctAnswer": "Safety equipment",
+      "correctAnswerKnown": true
+    },
+    {
+      "id": 73,
+      "question": "Persons holding an individual security licence in the province of Alberta may not refer to themselves as·",
+      "options": [
+        "Loss prevention workers",
+        "Peace Officers",
+        "Security professionals",
+        "Security guards"
+      ],
+      "correctAnswer": "Peace Officers",
+      "correctAnswerKnown": true
+    },
+    {
+      "id": 74,
+      "question": "_________ utilized by licensed security professionals must be authorized by the Registrar.",
+      "options": [
+        "Safety equipment",
+        "Handcuffs",
+        "Batons",
+        "Post orders"
+      ],
+      "correctAnswer": "Batons",
+      "correctAnswerKnown": true
+    },
+    {
+      "id": 75,
+      "question": "Writing profanity your notebook is",
+      "options": [
+        "Inadmissible in court",
+        "Never appropriate",
+        "Acceptable when you are quoting verbatim",
+        "Prohibited under the Canadian Charter of Rights and Freedoms"
+      ],
+      "correctAnswer": "Acceptable when you are quoting verbatim",
+      "correctAnswerKnown": true
+    },
+    {
+      "id": 76,
+      "question": "LEAPS is a method for:",
+      "options": [
+        "Making decisions on when to use force",
+        "Recalling information gained during an interview",
+        "To strengthen verbal communication",
+        "Memorizing a patrol route"
+      ],
+      "correctAnswer": "To strengthen verbal communication",
+      "correctAnswerKnown": true
+    },
+    {
+      "id": 77,
+      "question": "In LEAPS the S stands for:",
+      "options": [
+        "Summarize",
+        "Soften",
+        "Stand Down",
+        "Shorten"
+      ],
+      "correctAnswer": "Summarize",
+      "correctAnswerKnown": true
+    },
+    {
+      "id": 78,
+      "question": "When should you summarize a conversation with an individual",
+      "options": [
+        "At the end of a conversation",
+        "When dealing with multiple people",
+        "At the start of a conversation",
+        "Each time you begin to speak"
+      ],
+      "correctAnswer": "At the end of a conversation",
+      "correctAnswerKnown": true
+    },
+    {
+      "id": 79,
+      "question": "Shift work may negatively affect you in the following areas:",
+      "options": [
+        "Social Life",
+        "Sleep",
+        "Physical Fitness",
+        "All the above"
+      ],
+      "correctAnswer": "All the above",
+      "correctAnswerKnown": true
+    },
+    {
+      "id": 80,
+      "question": "Choosing to be physically fit will help you combat fatigue and keep your powers of _______________ sharp.",
+      "options": [
+        "Running",
+        "Self Defense",
+        "Writing",
+        "Observation"
+      ],
+      "correctAnswer": "Observation",
+      "correctAnswerKnown": true
+    },
+    {
+      "id": 81,
+      "question": "Which of the following are challenges to verbal communication?",
+      "options": [
+        "Disabilities",
+        "Your attitude",
+        "Language skills of all parties involved",
+        "All of the above"
+      ],
+      "correctAnswer": "All of the above",
+      "correctAnswerKnown": true
+    },
+    {
+      "id": 82,
+      "question": "Your _________ and _________ fitness are important for your personal safety as a security profesional.",
+      "options": [
+        "Cardiovascular and Mental",
+        "Mental and Physical",
+        "Strength and Physical",
+        "Intellectual and Mental"
+      ],
+      "correctAnswer": "Mental and Physical",
+      "correctAnswerKnown": true
+    },
+    {
+      "id": 83,
+      "question": "When deciding whether or not to fight a fire on your own you should consider",
+      "options": [
+        "The number of people in the building",
+        "The equipment available to you",
+        "The proximity to a water source",
+        "What floor your own"
+      ],
+      "correctAnswer": "The equipment available to you",
+      "correctAnswerKnown": true
+    },
+    {
+      "id": 84,
+      "question": "The ___________ with which you encounter certain hazards can affect the level of risk at a site.",
+      "options": [
+        "Nature",
+        "Frequency",
+        "Danger"
+      ],
+      "correctAnswer": "Frequency",
+      "correctAnswerKnown": true
+    },
+    {
+      "id": 85,
+      "question": "A statement is usually gathered as part of the ______________ process.",
+      "options": [
+        "Use of force",
+        "Interview",
+        "Organizational",
+        "Post Orders"
+      ],
+      "correctAnswer": "Interview",
+      "correctAnswerKnown": true
+    },
+    {
+      "id": 86,
+      "question": "Use ______________ to determine changes in temperature, such as a fire behind a door.",
+      "options": [
+        "Smoke detectors",
+        "Your touch",
+        "Building systems software",
+        "Thermostat readings"
+      ],
+      "correctAnswer": "Your touch",
+      "correctAnswerKnown": true
+    },
+    {
+      "id": 87,
+      "question": "An active listener:",
+      "options": [
+        "Makes eye contact with the speaker as much as possible without staring",
+        "Notices ongoing distractions while listening",
+        "Interrupts to clarify information",
+        "Does not respond while the speaker is talking"
+      ],
+      "correctAnswer": "Makes eye contact with the speaker as much as possible without staring",
+      "correctAnswerKnown": true
+    },
+    {
+      "id": 88,
+      "question": "When the attitude or behaviour of another person causes you to become frustrated, it is known as:",
+      "options": [
+        "Anger management",
+        "Bi-polar disorder",
+        "A trigger",
+        "Harassment"
+      ],
+      "correctAnswer": "A trigger",
+      "correctAnswerKnown": true
+    },
+    {
+      "id": 89,
+      "question": "Which of the following is not part of your non-verbal communication?",
+      "options": [
+        "Uniform",
+        "Facial experessions",
+        "Posture",
+        "Text messages"
+      ],
+      "correctAnswer": "Text messages",
+      "correctAnswerKnown": true
+    },
+    {
+      "id": 90,
+      "question": "To help an individual de-escalate, you might try:",
+      "options": [
+        "Becoming aggressive to show the individual you are in control of the situation",
+        "Moving the person to an area where more people are present",
+        "Limiting the individuals choices",
+        "Asking the person to come with you to a quieter place"
+      ],
+      "correctAnswer": "Asking the person to come with you to a quieter place",
+      "correctAnswerKnown": true
+    },
+    {
+      "id": 91,
+      "question": "Professional communication is:",
+      "options": [
+        "Free from acronyms",
+        "Courteous and respectful",
+        "Direct and to the point",
+        "All of the above"
+      ],
+      "correctAnswer": "All of the above",
+      "correctAnswerKnown": true
+    },
+    {
+      "id": 92,
+      "question": "What is your current security guard status?",
+      "options": [
+        "Licensed security guard in Alberta",
+        "Licensed security guard in another province",
+        "Currently taking a security guard training course",
+        "Thinking about becoming a security guard"
+      ],
+      "correctAnswer": "Licensed security guard in another province",
+      "correctAnswerKnown": true
+    }
+  ]
+}

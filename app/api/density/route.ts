@@ -1,29 +1,26 @@
 // app/api/density/route.ts
 //
-// Rewrites a manual excerpt at one of three reading levels:
-//   original | simple (B1 English) | eli12 (explain-like-I'm-12)
+// Rewrites a manual excerpt at a CLB level (5-12).
+// CLB 12 returns unchanged text; lower levels simplify progressively.
 //
 // Used by the bilingual reader to make ESL-friendly versions on demand.
-// Owner: Role C.
 
 import { NextRequest, NextResponse } from "next/server";
 import { generateText } from "@/lib/bedrock";
-import { DENSITY_REWRITE } from "@/lib/prompts";
-
-type Level = "original" | "simple" | "eli12";
+import { CLB_REWRITE } from "@/lib/prompts";
 
 export async function POST(req: NextRequest) {
-  const { text, level } = (await req.json()) as { text: string; level: Level };
+  const { text, clb } = (await req.json()) as { text: string; clb: number };
 
-  if (level === "original") {
+  if (clb >= 12) {
     return NextResponse.json({ text });
   }
 
-  const userMessage = `Excerpt:\n${text}\n\nlevel=${level}`;
+  const userMessage = `Excerpt:\n${text}\n\nclb=${clb}`;
 
   const out = await generateText(
     [{ role: "user", content: userMessage }],
-    DENSITY_REWRITE,
+    CLB_REWRITE,
     { maxTokens: 600, temperature: 0.4 }
   );
 
