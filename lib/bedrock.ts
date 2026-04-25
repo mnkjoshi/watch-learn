@@ -11,28 +11,31 @@ const TEXT_MODEL = process.env.BEDROCK_TEXT_MODEL ?? "anthropic.claude-sonnet-4-
 const EMBED_MODEL = process.env.BEDROCK_EMBED_MODEL ?? "amazon.titan-embed-text-v2:0";
 
 export type ChatMessage = {
-  role: "user" | "assistant";
+  role: "system" | "user" | "assistant";
   content: string;
 };
 
 /**
- * Single-turn or multi-turn text generation against Bedrock Claude.
- * Returns the model's text. System prompt is optional.
+ * Standard chat completion interface, mimicking OpenAI's format.
+ * Maps 'system' messages to Bedrock's system prompt field and
+ * 'user'/'assistant' messages to the conversation history.
  */
-export async function generateText(
+export async function chatCompletion(
   messages: ChatMessage[],
-  systemPrompt?: string,
-  opts: { maxTokens?: number; temperature?: number } = {}
+  opts: { model?: string; maxTokens?: number; temperature?: number } = {}
 ): Promise<string> {
   if (isDemoMode()) {
-    return demoText(messages, systemPrompt);
+    return demoText(messages);
   }
 
+  const systemMessages = messages.filter((m) => m.role === "system");
+  const conversationMessages = messages.filter((m) => m.role !== "system");
+
   const cmd = new ConverseCommand({
-    modelId: TEXT_MODEL,
-    system: systemPrompt ? [{ text: systemPrompt }] : undefined,
-    messages: messages.map((m) => ({
-      role: m.role,
+    modelId: opts.model ?? TEXT_MODEL,
+    system: systemMessages.length > 0 ? systemMessages.map((m) => ({ text: m.content })) : undefined,
+    messages: conversationMessages.map((m) => ({
+      role: m.role as "user" | "assistant",
       content: [{ text: m.content }],
     })),
     inferenceConfig: {
@@ -45,6 +48,21 @@ export async function generateText(
   const text = res.output?.message?.content?.[0]?.text;
   if (!text) throw new Error("Bedrock returned no text");
   return text;
+}
+
+/**
+ * Convenience wrapper for generating text with an optional separate system prompt.
+ */
+export async function generateText(
+  messages: ChatMessage[],
+  systemPrompt?: string,
+  opts: { maxTokens?: number; temperature?: number } = {}
+): Promise<string> {
+  const allMessages = [...messages];
+  if (systemPrompt) {
+    allMessages.unshift({ role: "system", content: systemPrompt });
+  }
+  return chatCompletion(allMessages, opts);
 }
 
 /**
@@ -95,9 +113,10 @@ export async function embed(text: string): Promise<number[]> {
 
 // ---------- demo fallbacks ----------
 
-function demoText(messages: ChatMessage[], systemPrompt?: string): string {
+function demoText(messages: ChatMessage[]): string {
   const last = messages[messages.length - 1]?.content ?? "";
-  const sys = systemPrompt ?? "";
+  const sysMessages = messages.filter((m) => m.role === "system");
+  const sys = sysMessages.map((m) => m.content).join("\n");
 
   if (sys.includes("PATRON_ROLEPLAY")) {
     return "I already told you I'm not leaving. I paid for my drink and I'm sitting here. What are you gonna do about it?";
