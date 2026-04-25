@@ -9,7 +9,6 @@ dotenv.config();
 
 import { BedrockRuntimeClient } from "@aws-sdk/client-bedrock-runtime";
 import { PollyClient } from "@aws-sdk/client-polly";
-import { TranslateClient } from "@aws-sdk/client-translate";
 import { TranscribeClient } from "@aws-sdk/client-transcribe";
 
 const region = process.env.AWS_REGION ?? "us-east-1";
@@ -25,7 +24,6 @@ const credentials =
 
 let _bedrock: BedrockRuntimeClient | null = null;
 let _polly: PollyClient | null = null;
-let _translate: TranslateClient | null = null;
 let _transcribe: TranscribeClient | null = null;
 
 export function bedrock() {
@@ -36,11 +34,6 @@ export function bedrock() {
 export function polly() {
   if (!_polly) _polly = new PollyClient({ region, credentials });
   return _polly;
-}
-
-export function translateClient() {
-  if (!_translate) _translate = new TranslateClient({ region, credentials });
-  return _translate;
 }
 
 export function transcribe() {
