@@ -70,6 +70,75 @@ The system behavior is controlled by the `DEMO_MODE` variable in `.env`:
 
 ---
 
+## 📚 RAG: Searching the ABST Manual with Embeddings
+
+The full 200-page ABST manual has been extracted (via Claude 3 Haiku vision) and chunked into 321 searchable chunks with Titan v2 embeddings. Two data files power this:
+
+| File | Contents | Shape |
+| :--- | :--- | :--- |
+| `data/abst_pages.json` | Raw per-page text (200 pages) | `{ page: number, text: string }[]` |
+| `data/abst_chunks.json` | Chunked + embedded (~400 words each) | `AbstChunk[]` (see `lib/abst.ts`) |
+
+### Semantic Search (most common pattern)
+
+```typescript
+import { retrieve, formatContext } from "@/lib/abst";
+
+// Returns the top-k chunks most relevant to any natural language query
+const chunks = await retrieve("use of force", 5);
+
+// Format as a context block to inject into a prompt
+const context = formatContext(chunks);
+// → "[1] (Use of Force, p.29)\nSection 25 of the Criminal Code..."
+```
+
+### Typical API Route Pattern
+
+```typescript
+// app/api/my-feature/route.ts
+import { retrieve, formatContext } from "@/lib/abst";
+import { generateText } from "@/lib/bedrock";
+import { MY_PROMPT } from "@/lib/prompts";
+
+export async function POST(req) {
+  const { question } = await req.json();
+  const chunks = await retrieve(question, 5);
+  const context = formatContext(chunks);
+  const userMessage = `Manual excerpts:\n${context}\n\nQuestion: ${question}`;
+  const answer = await generateText(
+    [{ role: "user", content: userMessage }],
+    MY_PROMPT
+  );
+  return Response.json({ answer });
+}
+```
+
+### Lower-Level Access
+
+```typescript
+import { loadChunks, retrieveByEmbedding } from "@/lib/abst";
+import { embed } from "@/lib/bedrock";
+
+// Load all 321 chunks into memory (cached after first call)
+const allChunks = loadChunks();
+
+// Pre-compute a query embedding and search manually
+const queryVec = await embed("trespass to premises");
+const results = retrieveByEmbedding(queryVec, 10);
+```
+
+### Re-generating Chunks
+
+```bash
+# Re-chunk + re-embed only (uses cached abst_pages.json)
+node scripts/prepare_abst.mjs
+
+# Full re-extraction from PDF (200 Haiku vision calls + re-embed)
+node scripts/prepare_abst.mjs --force
+```
+
+---
+
 ## 🚀 Testing Utilities
 
 You can run these from your terminal to verify connections:
