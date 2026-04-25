@@ -10,6 +10,7 @@
     "prepare-abst": "node scripts/prepare_abst.mjs"
   },
   "dependencies": {
+    "@aws-sdk/client-bedrock": "^3.1037.0",
     "@aws-sdk/client-bedrock-runtime": "^3.658.0",
     "@aws-sdk/client-polly": "^3.658.0",
     "@aws-sdk/client-transcribe": "^3.658.0",

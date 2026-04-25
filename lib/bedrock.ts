@@ -9,6 +9,7 @@ import { bedrock, isDemoMode } from "./aws.js";
 
 const TEXT_MODEL = process.env.BEDROCK_TEXT_MODEL ?? "anthropic.claude-sonnet-4-20250514-v1:0";
 const EMBED_MODEL = process.env.BEDROCK_EMBED_MODEL ?? "amazon.titan-embed-text-v2:0";
+const IMAGE_MODEL = process.env.BEDROCK_IMAGE_MODEL ?? "stability.stable-image-ultra-v1:1";
 
 export type ChatMessage = {
   role: "system" | "user" | "assistant";
@@ -40,7 +41,7 @@ export async function chatCompletion(
     })),
     inferenceConfig: {
       maxTokens: opts.maxTokens ?? 1024,
-      temperature: opts.temperature ?? 0.5,
+      ...(opts.temperature !== undefined ? { temperature: opts.temperature } : {}),
     },
   });
 
@@ -109,6 +110,37 @@ export async function embed(text: string): Promise<number[]> {
   const res = await bedrock().send(cmd);
   const body = JSON.parse(new TextDecoder().decode(res.body));
   return body.embedding as number[];
+}
+
+/**
+ * Generate an image using Stability AI.
+ * Returns a base64 encoded image string (data:image/png;base64,...)
+ */
+export async function generateImage(
+  prompt: string,
+  opts: { aspect_ratio?: string } = {}
+): Promise<string> {
+  if (isDemoMode()) {
+    return demoImage(prompt);
+  }
+
+  const cmd = new InvokeModelCommand({
+    modelId: IMAGE_MODEL,
+    contentType: "application/json",
+    accept: "application/json",
+    body: JSON.stringify({
+      prompt,
+      aspect_ratio: opts.aspect_ratio ?? "1:1",
+      mode: "text-to-image",
+    }),
+  });
+
+  const res = await bedrock().send(cmd);
+  const body = JSON.parse(new TextDecoder().decode(res.body));
+  const base64 = body.images?.[0];
+  if (!base64) throw new Error("Stability AI returned no image");
+
+  return `data:image/png;base64,${base64}`;
 }
 
 // ---------- demo fallbacks ----------
@@ -187,4 +219,9 @@ function fakeEmbedding(text: string): number[] {
   }
   const norm = Math.sqrt(out.reduce((a, b) => a + b * b, 0)) || 1;
   return out.map((v) => v / norm);
+}
+
+function demoImage(prompt: string): string {
+  // Returns a base64 string of a 1x1 gray pixel as a placeholder.
+  return "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8/5+hHgAHggJ/PchI7wAAAABJRU5ErkJggg==";
 }

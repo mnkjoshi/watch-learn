@@ -1,8 +1,11 @@
+import dotenv from "dotenv";
+dotenv.config();
+
 import { chatCompletion, generateText } from "../lib/bedrock";
 
 async function test() {
   console.log("Testing Bedrock Foundation...");
-  console.log("DEMO_MODE is currently active (default).");
+  console.log(`DEMO_MODE is: ${process.env.DEMO_MODE}`);
 
   try {
     const messages = [

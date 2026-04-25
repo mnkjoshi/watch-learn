@@ -4,6 +4,9 @@
 // on each request. All clients lazy-initialize so DEMO_MODE works without
 // any AWS env vars set.
 
+import dotenv from "dotenv";
+dotenv.config();
+
 import { BedrockRuntimeClient } from "@aws-sdk/client-bedrock-runtime";
 import { PollyClient } from "@aws-sdk/client-polly";
 import { TranslateClient } from "@aws-sdk/client-translate";
@@ -16,6 +19,7 @@ const credentials =
     ? {
         accessKeyId: process.env.AWS_ACCESS_KEY_ID,
         secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY,
+        sessionToken: process.env.AWS_SESSION_TOKEN,
       }
     : undefined;
 
