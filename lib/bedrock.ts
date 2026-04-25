@@ -201,6 +201,52 @@ function demoText(messages: ChatMessage[]): string {
       vocabularyTerm: "detain",
     });
   }
+  if (sys.includes("DISPUTE_DIRECTOR")) {
+    const demoLines = [
+      "You know what? This is exactly what you always do. You start something and then act like it's my fault.",
+      "Oh please. You've been running your mouth all night. Everyone here is tired of it.",
+      "Whatever man. I just want to settle this and go home.",
+      "Yeah? Then pay what you owe and we're done.",
+      "Look, maybe the security guy is right. Let's just figure this out.",
+    ];
+    const turnCount = (last.match(/SECURITY GUARD:|Marcus:|Tyler:/g) || []).length;
+    return demoLines[turnCount % demoLines.length];
+  }
+  if (sys.includes("DISPUTE_GUARD_EVAL")) {
+    return JSON.stringify({
+      effectiveness: "good",
+      escalationDelta: -1,
+      reason: "The guard identified themselves and used a calm tone to address both parties.",
+      tip: "Always position yourself at a safe distance and address both parties equally to avoid appearing biased.",
+    });
+  }
+  if (sys.includes("DISPUTE_DEBRIEF")) {
+    return JSON.stringify({
+      score: 72,
+      strengths: [
+        "Identified yourself as security immediately",
+        "Addressed both parties rather than just one",
+        "Used calm and professional language throughout",
+      ],
+      improvements: [
+        "Could have physically separated the parties sooner by directing one to a different area",
+        "Did not mention the option of calling police as a next step if compliance wasn't achieved",
+        "Missed opportunity to acknowledge each person's frustration before giving directions",
+      ],
+      manualCitations: [
+        { section: "Communication & De-escalation", quote: "A security professional should use verbal skills to manage conflict before considering physical intervention..." },
+        { section: "Use of Force", quote: "Force is always a last resort. The security guard must exhaust all verbal de-escalation options first..." },
+      ],
+      modelAnswer: "A strong de-escalation response would be: 'Gentlemen, I'm security here. I can see you're both frustrated. Marcus, I hear you — let's sort out the bill fairly. Tyler, I understand your side too. But I need you both to take a step back right now. Let's move to separate areas and we'll work this out calmly. If we can't resolve it here, I'll need to involve the manager or call the police.'",
+      breakdown: {
+        communication: 80,
+        impartiality: 70,
+        separation: 55,
+        authority: 75,
+        escalationJudgment: 65,
+      },
+    });
+  }
   if (sys.includes("DENSITY")) {
     if (last.includes("level=simple")) {
       return "Security guards watch, write things down, and tell others. They do not have police powers.";

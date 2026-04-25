@@ -109,3 +109,175 @@ export const SCENARIO_OPENERS: Record<string, string> = {
   evidence: "A patron reports their wallet was stolen. They believe they know who took it — a person now sitting at the back booth. You approach the suspect's table.",
   medical: "A patron collapses on the dance floor. Bystanders are crowding around. You arrive first.",
 };
+
+// =====================================================================
+// DISPUTE DE-ESCALATION SCENARIOS (HeyGen Live Avatar)
+// =====================================================================
+
+export const DISPUTE_DIRECTOR = `[DISPUTE_DIRECTOR]
+You are the director of a realistic security training simulation. Two people are having a heated dispute at a licensed venue in Alberta, Canada. A security guard trainee is trying to de-escalate.
+
+You control both disputants (Person A and Person B). Given the current transcript, generate the NEXT line of dialogue for the specified person.
+
+Hard rules:
+- One person speaks at a time. Return dialogue for ONLY the person requested.
+- Keep lines to 1-2 sentences max. Real arguments are rapid-fire, not monologues.
+- The dispute should feel genuine — overlapping grievances, raised voices, personal insults, but nothing that crosses into hate speech or threats of deadly violence.
+- Mild profanity is realistic (damn, hell, bullshit). No slurs or extreme language.
+- The disputants should REACT to the security guard's interventions:
+  * Good de-escalation (calm tone, acknowledging feelings, separating parties) → disputants gradually cool down
+  * Poor de-escalation (taking sides, being aggressive, ignoring one party) → dispute escalates
+  * No intervention → dispute escalates on its own
+- After the guard intervenes well 2-3 times, one disputant should start to comply.
+- If the guard hasn't intervened after 3 exchanges, the dispute should escalate to near-physical.
+
+Return ONLY the dialogue line. No stage directions, no quotation marks, no character name prefix.`;
+
+export const DISPUTE_GUARD_EVALUATOR = `[DISPUTE_GUARD_EVAL]
+You are evaluating a security guard trainee's de-escalation attempt during a live dispute between two people at a licensed venue in Alberta.
+
+Analyze the guard's statement and the current situation. Return JSON:
+{
+  "effectiveness": "good" | "neutral" | "poor",
+  "escalationDelta": <-2 to +2>,
+  "reason": "<brief explanation of why this was effective or not>",
+  "tip": "<one-sentence tip from ABST curriculum>"
+}
+
+Evaluation criteria (from ABST Participant Manual):
+- Did they identify themselves as security?
+- Did they use a calm, authoritative (not aggressive) tone?
+- Did they acknowledge both parties' perspectives?
+- Did they give clear, lawful directions?
+- Did they attempt to physically separate the parties (verbally directing them apart)?
+- Did they avoid taking sides?
+- Did they avoid physical contact or threats?
+- Did they mention calling police if needed (appropriate escalation)?
+
+"escalationDelta" guide:
+- -2: Excellent de-escalation, both parties noticeably calmer
+- -1: Good attempt, situation slightly improved
+-  0: Neutral, no real effect
+- +1: Made it slightly worse (took sides, was dismissive)
+- +2: Made it much worse (was aggressive, threatened, or escalated)`;
+
+export const DISPUTE_DEBRIEF = `[DISPUTE_DEBRIEF]
+You are an Alberta Basic Security Training examiner debriefing a student after a live dispute de-escalation exercise. The student was the security guard trying to calm down two people having a heated argument.
+
+You will see the full transcript (including both disputants and the guard's interventions) and relevant ABST manual excerpts.
+
+Grade specifically on de-escalation skills:
+1. COMMUNICATION (30%): Calm tone, clear language, identified themselves
+2. IMPARTIALITY (20%): Did not take sides, acknowledged both perspectives
+3. SEPARATION (20%): Attempted to create physical/verbal distance between parties
+4. AUTHORITY (15%): Gave clear lawful directions without being aggressive
+5. ESCALATION JUDGMENT (15%): Knew when to call for backup/police vs handle alone
+
+Return STRICT JSON only:
+{
+  "score": <0-100>,
+  "strengths": [<string>, ...],
+  "improvements": [<string>, ...],
+  "manualCitations": [{ "section": <string>, "quote": <string> }],
+  "modelAnswer": <string>,
+  "breakdown": {
+    "communication": <0-100>,
+    "impartiality": <0-100>,
+    "separation": <0-100>,
+    "authority": <0-100>,
+    "escalationJudgment": <0-100>
+  }
+}
+
+Be honest and specific. Quote the student's actual words when giving feedback.`;
+
+export type DisputeScenario = {
+  id: string;
+  title: string;
+  blurb: string;
+  difficulty: "Beginner" | "Intermediate" | "Advanced";
+  manualSection: string;
+  setting: string;
+  personA: { name: string; mood: string; grievance: string };
+  personB: { name: string; mood: string; grievance: string };
+  openingExchanges: { speaker: "A" | "B"; line: string }[];
+};
+
+export const DISPUTE_SCENARIOS: DisputeScenario[] = [
+  {
+    id: "bar_tab",
+    title: "The Disputed Bar Tab",
+    blurb: "Two patrons are arguing loudly over a shared bar tab. One accuses the other of skipping out on their share.",
+    difficulty: "Beginner",
+    manualSection: "Communication & De-escalation",
+    setting: "A busy Friday night at a licensed bar. Two men at the bar counter are getting increasingly loud.",
+    personA: {
+      name: "Marcus",
+      mood: "Angry and feeling cheated",
+      grievance: "His friend Tyler ordered expensive drinks all night and now refuses to split the $180 tab evenly.",
+    },
+    personB: {
+      name: "Tyler",
+      mood: "Defensive and dismissive",
+      grievance: "He only had a few drinks and Marcus is trying to make him pay for rounds he bought for other people.",
+    },
+    openingExchanges: [
+      { speaker: "A", line: "You ordered three rounds of shots for the whole table and now you want ME to pay half? That's a hundred and eighty bucks!" },
+      { speaker: "B", line: "Dude, you invited those people over! I'm not paying for YOUR friends' drinks. That's on you." },
+      { speaker: "A", line: "Don't give me that. You were the one waving the waitress over every five minutes. Everyone saw it." },
+    ],
+  },
+  {
+    id: "line_cutting",
+    title: "Line Cutting at the Club",
+    blurb: "A patron accuses another of cutting the line. The accused patron's friend jumps in. Voices are rising near the entrance.",
+    difficulty: "Intermediate",
+    manualSection: "Use of Force & De-escalation",
+    setting: "Saturday night outside a nightclub. A long line of people waiting to get in. Two groups are squaring off near the front.",
+    personA: {
+      name: "Marcus",
+      mood: "Furious and humiliated in front of friends",
+      grievance: "He's been waiting 45 minutes in line and watched Tyler and his group just walk up and cut in front of everyone.",
+    },
+    personB: {
+      name: "Tyler",
+      mood: "Aggressive and confrontational",
+      grievance: "His friend is inside holding a table and told him to come to the front. He didn't 'cut' — he was meeting someone.",
+    },
+    openingExchanges: [
+      { speaker: "A", line: "Hey! We've been standing here for forty-five minutes. You can't just walk up and cut everyone." },
+      { speaker: "B", line: "I'm not cutting, bro. My buddy's inside. He told me to come to the front. Mind your own business." },
+      { speaker: "A", line: "That's bull. Everyone here saw you just walk past the whole line. Back of the line, buddy." },
+      { speaker: "B", line: "Or what? You gonna make me? Get out of my face." },
+    ],
+  },
+  {
+    id: "spilled_drink",
+    title: "Spilled Drink Confrontation",
+    blurb: "One patron accidentally spills a drink on another. The victim's date is demanding an apology and compensation. It's getting physical.",
+    difficulty: "Advanced",
+    manualSection: "Use of Force & Trespass to Premises Act",
+    setting: "A crowded dance floor area. One patron bumped into another, spilling a drink down their shirt. The victim's partner is now chest-to-chest with the person who spilled.",
+    personA: {
+      name: "Marcus",
+      mood: "Protective and aggressive — defending his partner who got a drink spilled on her",
+      grievance: "Some careless guy just dumped a full drink on his girlfriend's new outfit and laughed about it instead of apologizing.",
+    },
+    personB: {
+      name: "Tyler",
+      mood: "Defensive but also aggressive — it was an accident and he's being threatened",
+      grievance: "He accidentally bumped into someone on a packed dance floor. Now this guy is in his face threatening him over a spilled drink.",
+    },
+    openingExchanges: [
+      { speaker: "A", line: "You think that's funny? You just dumped your drink all over her! That shirt cost more than your whole outfit." },
+      { speaker: "B", line: "It was an accident, man! The floor is packed. People bump into each other. Chill out." },
+      { speaker: "A", line: "Chill out? You didn't even say sorry. You laughed! You're buying her a new drink AND paying for the dry cleaning." },
+      { speaker: "B", line: "I'm not paying for anything. It was an accident. Back up out of my face before this gets ugly." },
+    ],
+  },
+];
+
+export const DISPUTE_OPENERS: Record<string, string> = {};
+for (const s of DISPUTE_SCENARIOS) {
+  DISPUTE_OPENERS[s.id] = `Setting: ${s.setting}\n\nPerson A (${s.personA.name}): ${s.personA.mood}. ${s.personA.grievance}\nPerson B (${s.personB.name}): ${s.personB.mood}. ${s.personB.grievance}`;
+}
