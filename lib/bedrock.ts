@@ -253,6 +253,40 @@ function demoText(messages: ChatMessage[]): string {
     }
     return "A security guard's role is observe, deter, and report. Guards have no special legal powers beyond those of any private citizen.";
   }
+  if (sys.includes("VIDEO_REPORT_GRADE")) {
+    return JSON.stringify({
+      overallScore: 68,
+      grammarScore: 72,
+      contentScore: 65,
+      grammarCorrections: [
+        {
+          original: "I seen two officer",
+          corrected: "I saw two officers",
+          explanation: "'Seen' needs a helper word like 'have' — use 'saw' for past tense. 'Officer' needs an 's' because there are two.",
+        },
+        {
+          original: "they was looking at the ground",
+          corrected: "they were looking at the ground",
+          explanation: "With 'they', always use 'were' (not 'was').",
+        },
+      ],
+      detailsIdentified: [
+        "Two officers present at the scene",
+        "Officers examining something on the ground",
+        "Nighttime or dark conditions",
+      ],
+      detailsMissed: [
+        "Use of flashlights or portable lighting",
+        "Outdoor location — street or alley",
+        "No civilians nearby",
+      ],
+      structureFeedback: "Your report covers the basic facts but could benefit from a clearer chronological order. Start with when and where, then describe what you observed.",
+      languageFeedback: "Good use of 'officer' and 'scene'. Try to include more professional terms like 'observed', 'approximately', and 'incident'.",
+      correctedReport: "At approximately [time], I observed two officers at the scene. They were looking at the ground and appeared to be examining evidence. The area was dark with nighttime conditions.",
+      modelReport: "At approximately [time], I arrived at the scene of an incident in a dark outdoor area. Two police officers were already present and actively investigating. Officers appeared to be looking at something on the ground. No civilians were observed in the immediate vicinity.",
+      encouragement: "You did a good job noticing the key people and their actions. Your observation skills are strong — keep working on the report writing format and you will improve quickly!",
+    });
+  }
 
   return "(demo mode) " + last.slice(0, 120);
 }

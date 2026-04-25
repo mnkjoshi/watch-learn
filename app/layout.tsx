@@ -39,6 +39,7 @@ function Header() {
           <Link href="/reader" className="hover:text-accent transition">Manual</Link>
           <Link href="/quiz" className="hover:text-accent transition">Quiz</Link>
           <Link href="/scenario" className="hover:text-accent transition">Scenarios</Link>
+          <Link href="/report" className="hover:text-accent transition">Reports</Link>
           <Link href="/progress" className="hover:text-accent transition">Progress</Link>
         </nav>
       </div>

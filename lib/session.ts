@@ -24,14 +24,24 @@ export type ScenarioRun = {
   timestamp: number;
 };
 
+export type ReportAttempt = {
+  videoId: string;
+  overallScore: number;
+  grammarScore: number;
+  contentScore: number;
+  timestamp: number;
+};
+
 export type SessionState = {
   quizAttempts: QuizAttempt[];
   scenarioRuns: ScenarioRun[];
+  reportAttempts: ReportAttempt[];
 };
 
 export const EMPTY_SESSION: SessionState = {
   quizAttempts: [],
   scenarioRuns: [],
+  reportAttempts: [],
 };
 
 const KEY = "abst-coach-session-v1";
@@ -66,6 +76,13 @@ export function recordQuizAttempt(attempt: QuizAttempt): SessionState {
 export function recordScenarioRun(run: ScenarioRun): SessionState {
   const s = loadSession();
   s.scenarioRuns = [...s.scenarioRuns, run].slice(-50);
+  saveSession(s);
+  return s;
+}
+
+export function recordReportAttempt(attempt: ReportAttempt): SessionState {
+  const s = loadSession();
+  s.reportAttempts = [...(s.reportAttempts ?? []), attempt].slice(-50);
   saveSession(s);
   return s;
 }

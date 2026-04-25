@@ -59,6 +59,14 @@ export default function Home() {
         <PillarCard
           delay="rise-4"
           eyebrow="Pillar IV"
+          title="Incident Reports"
+          subtitle="Watch a video once, then write an incident report from memory. Graded on grammar, detail accuracy, and professional language."
+          href="/report"
+          cta="Watch & report →"
+        />
+        <PillarCard
+          delay="rise-5"
+          eyebrow="Pillar V"
           title="Progress & Confidence"
           subtitle="Tracks your accuracy across modules and tells you when you're ready to take the real exam."
           href="/progress"
