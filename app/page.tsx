@@ -51,14 +51,22 @@ export default function Home() {
         <PillarCard
           delay="rise-3"
           eyebrow="Pillar III"
+          title="Dispute De-escalation"
+          subtitle="Two AI avatars argue — you step in as security. Live evaluation grades your calm, impartiality, and ABST technique."
+          href="/dispute"
+          cta="Start a dispute →"
+        />
+        <PillarCard
+          delay="rise-4"
+          eyebrow="Pillar IV"
           title="Manual at Your Level"
           subtitle="The same provincial content rewritten at three reading levels, with sentence-level read-aloud. The exam is in English — practice in English."
           href="/reader"
           cta="Open the manual →"
         />
         <PillarCard
-          delay="rise-4"
-          eyebrow="Pillar IV"
+          delay="rise-5"
+          eyebrow="Pillar V"
           title="Progress & Confidence"
           subtitle="Tracks your accuracy across modules and tells you when you're ready to take the real exam."
           href="/progress"
