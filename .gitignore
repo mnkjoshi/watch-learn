@@ -8,4 +8,4 @@ out/
 *.log
 .vercel
 data/abst_manual.pdf
-data/abst_chunks.json
+
