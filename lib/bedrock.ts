@@ -5,7 +5,7 @@
 // so the app is testable end-to-end before AWS access is wired up.
 
 import { ConverseCommand, InvokeModelCommand } from "@aws-sdk/client-bedrock-runtime";
-import { bedrock, isDemoMode } from "./aws";
+import { bedrock, isDemoMode } from "./aws.js";
 
 const TEXT_MODEL = process.env.BEDROCK_TEXT_MODEL ?? "anthropic.claude-sonnet-4-20250514-v1:0";
 const EMBED_MODEL = process.env.BEDROCK_EMBED_MODEL ?? "amazon.titan-embed-text-v2:0";
